@@ -1366,12 +1366,8 @@ window.SOO = {
           who: "治疗 / 全员",
           videos: [
             {
-              src: "https://assets2.mythictrap.com/videos/siege-of-orgrimmar/garrosh-hellscream/whirlingCorruption.mp4",
-              caption: "普通旋风 · 拉开"
-            },
-            {
               src: "https://assets2.mythictrap.com/videos/siege-of-orgrimmar/garrosh-hellscream/empoweredWhirlingCorruption.mp4",
-              caption: "强化 · 额外点名 + 刷爪牙"
+              caption: "旋风腐蚀（含强化：拉开 + 点名溅射 + 刷爪牙）"
             }
           ]
         },

@@ -297,7 +297,8 @@
                         const src = typeof v === "string" ? v : v.src;
                         const cap = typeof v === "string" ? "" : v.caption || "";
                         return `<figure class="skill-video">
-                          <video muted playsinline controls loop preload="metadata" src="${src}"></video>
+                          <video muted playsinline controls loop preload="metadata" src="${src}"
+                            onerror="this.closest('figure').classList.add('video-broken');this.replaceWith(Object.assign(document.createElement('p'),{className:'video-fallback',textContent:'视频暂不可用（来源 CDN 失效），请对照文字说明。'}))"></video>
                           ${cap ? `<figcaption>${cap}</figcaption>` : ""}
                         </figure>`;
                       }
