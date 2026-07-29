@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SOO 职责测验 | 围攻奥格瑞玛</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="quiz-page">
+  <div class="bg-embers" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="brand-kicker">Mists of Pandaria Classic</p>
+        <h1 class="brand-name">围攻奥格瑞玛</h1>
+      </div>
+    </div>
+    <nav class="top-nav" aria-label="主导航">
+      <a href="index.html">攻略主页</a>
+      <a href="index.html#guides">Boss 攻略</a>
+      <a href="quiz.html" aria-current="page">测验</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section quiz-section quiz-page-hero" id="quiz">
+      <div class="section-head">
+        <h2>职责测验</h2>
+        <p>按最新 MythicTrap / WCL 攻略出题。先选职责，再选题量；建议答完对照攻略复盘错题。</p>
+      </div>
+
+      <div class="quiz-setup" id="quizSetup">
+        <div class="role-picker" role="radiogroup" aria-label="选择职责">
+          <button type="button" class="role-card" data-role="tank" aria-pressed="false">
+            <span class="role-icon tank">盾</span>
+            <strong>坦克</strong>
+            <span>仇恨、换坦、走位引导</span>
+          </button>
+          <button type="button" class="role-card" data-role="healer" aria-pressed="false">
+            <span class="role-icon healer">十字</span>
+            <strong>治疗</strong>
+            <span>抬血、驱散、减伤时机</span>
+          </button>
+          <button type="button" class="role-card" data-role="dps" aria-pressed="false">
+            <span class="role-icon dps">剑</span>
+            <strong>DPS</strong>
+            <span>转火、打断、机制处理</span>
+          </button>
+        </div>
+
+        <div class="quiz-options">
+          <label>
+            题目数量
+            <select id="quizCount">
+              <option value="10">10 题</option>
+              <option value="14" selected>14 题（每 Boss 优先一题）</option>
+              <option value="21">21 题</option>
+              <option value="28">28 题</option>
+              <option value="42">全部（约 42 题）</option>
+            </select>
+          </label>
+          <label>
+            Boss 范围
+            <select id="quizScope">
+              <option value="all" selected>全部 14 Boss</option>
+              <option value="front">前半：1–7（泳池～城门）</option>
+              <option value="back">后半：8–14（纳兹～加尔鲁什）</option>
+            </select>
+          </label>
+          <button type="button" class="btn btn-primary" id="startQuiz" disabled>开始答题</button>
+        </div>
+        <p class="quiz-hint">题库随攻略同步：腐蚀清零、传送带拆件、英杰击杀序、加尔鲁什 P4 恶意撞星等。</p>
+      </div>
+
+      <div class="quiz-board hidden" id="quizBoard">
+        <div class="quiz-progress">
+          <div class="quiz-meta">
+            <span id="quizRoleLabel"></span>
+            <span id="quizProgressText">1 / 14</span>
+          </div>
+          <div class="progress-bar"><div id="progressFill"></div></div>
+        </div>
+        <form id="quizForm" class="quiz-form"></form>
+        <div class="quiz-actions">
+          <button type="button" class="btn btn-ghost" id="prevQ">上一题</button>
+          <button type="button" class="btn btn-ghost" id="nextQ">下一题</button>
+          <button type="submit" form="quizForm" class="btn btn-primary" id="submitQuiz">交卷并查看得分</button>
+        </div>
+      </div>
+
+      <div class="quiz-result hidden" id="quizResult"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="index.html">返回攻略</a> · 围攻奥格瑞玛职责测验 · 机制以怀旧服实际开放为准</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="questions.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

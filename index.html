@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>围攻奥格瑞玛 · SOO 攻略 | 熊猫人之谜怀旧服</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-embers" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="brand-kicker">Mists of Pandaria Classic</p>
+        <h1 class="brand-name">围攻奥格瑞玛</h1>
+      </div>
+    </div>
+    <nav class="top-nav" aria-label="主导航">
+      <a href="#overview">概览</a>
+      <a href="#guides">攻略</a>
+      <a href="quiz.html">测验</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-veil"></div>
+      <div class="hero-copy">
+        <p class="hero-eyebrow">团队副本 · 14 Boss · 普通 / 英雄机制</p>
+        <h2 class="hero-title">SIEGE OF<br />ORGRIMMAR</h2>
+        <p class="hero-lead">从怒焰裂谷深处到加尔鲁什王座——完整机制拆解、职责站位与开荒要点。</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#guides">进入攻略</a>
+          <a class="btn btn-ghost" href="quiz.html">职责测验</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 480 420" class="hero-svg">
+          <defs>
+            <radialGradient id="gGlow" cx="50%" cy="40%" r="55%">
+              <stop offset="0%" stop-color="#ff6b2b" stop-opacity=".55"/>
+              <stop offset="100%" stop-color="#1a0a05" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="gIron" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#d4a574"/>
+              <stop offset="100%" stop-color="#6b3a1f"/>
+            </linearGradient>
+          </defs>
+          <circle cx="240" cy="180" r="160" fill="url(#gGlow)"/>
+          <path d="M80 320 L240 70 L400 320 Z" fill="none" stroke="url(#gIron)" stroke-width="3"/>
+          <path d="M140 300 L240 120 L340 300 Z" fill="none" stroke="#c45c26" stroke-width="2" opacity=".7"/>
+          <circle cx="240" cy="210" r="28" fill="#1a0a05" stroke="#e8a05c" stroke-width="3"/>
+          <path d="M240 182 L252 210 L240 238 L228 210 Z" fill="#e85d2a"/>
+          <text x="240" y="370" text-anchor="middle" fill="#e8d5b7" font-family="Cinzel, serif" font-size="18" letter-spacing="6">HELLSCREAM</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="section-head">
+        <h2>副本概览</h2>
+        <p>决战奥格瑞玛是熊猫人之谜最终团队副本，按区域推进：泳池区 → 傲之煞 → 城门攻坚 → 地下堡垒 → 暴君黄昏。</p>
+      </div>
+      <div class="overview-grid">
+        <article class="info-block">
+          <h3>基本信息</h3>
+          <ul>
+            <li><span>推荐装等</span> 普通约 535+ / 英雄 553+</li>
+            <li><span>人数</span> 10 / 25 人</li>
+            <li><span>难度</span> 弹性 / 普通 / 英雄 / 史诗（怀旧节奏以当前开放为准）</li>
+            <li><span>配置建议</span> 2 坦 · 5–6 治疗 · 其余 DPS</li>
+          </ul>
+        </article>
+        <article class="info-block">
+          <h3>路线分区</h3>
+          <ol class="zone-list">
+            <li><strong>怒焰裂谷深处</strong> — 伊墨苏斯、堕落守护者、诺鲁什、傲之煞</li>
+            <li><strong>奥格瑞玛城门</strong> — 迦拉卡斯、钢铁战蝎、黑暗萨满、纳兹戈林</li>
+            <li><strong>地下堡垒</strong> — 马尔考罗克、战利品、索克、黑索</li>
+            <li><strong>暴君黄昏</strong> — 卡拉克西英杰、加尔鲁什</li>
+          </ol>
+        </article>
+        <article class="info-block accent">
+          <h3>开荒要点</h3>
+          <p>前四只偏机制与时间轴；城门段看站位、停手与分摊；地下堡垒起治疗检测（马忠贤/索克）；黑索看传送带，英杰看击杀序，小吼看隐藏恶意表。</p>
+          <p class="source-note">14 个 Boss 均已对照 <a href="https://classic.warcraftlogs.com/guide/immerseus" target="_blank" rel="noopener noreferrer">Warcraft Logs 指南</a> / MythicTrap，并吸收 NGA 25H 实战要点。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section guides-section" id="guides">
+      <div class="section-head">
+        <h2>Boss 攻略</h2>
+        <p>点击左侧首领查看技能、机制、站位与职责注意。内容以普通/英雄常见机制为主。</p>
+      </div>
+      <div class="guides-layout">
+        <aside class="boss-nav" id="bossNav" aria-label="Boss 列表"></aside>
+        <article class="boss-panel" id="bossPanel" tabindex="-1"></article>
+      </div>
+    </section>
+
+    <section class="section quiz-cta-section" id="quiz-cta">
+      <div class="quiz-cta-panel">
+        <div>
+          <h2>职责测验</h2>
+          <p>坦克 / 治疗 / DPS 分卷选择题，覆盖 14 Boss 最新机制要点。独立页面作答，交卷后可对照攻略复盘。</p>
+        </div>
+        <a class="btn btn-primary" href="quiz.html">打开测验页</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>围攻奥格瑞玛攻略 · <a href="quiz.html">职责测验</a> · 熊猫人之谜怀旧服参考页 · 机制以怀旧服实际开放为准</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
