@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SOO 战前安排 | 围攻奥格瑞玛</title>
+  <title>SOO 10H 攻略 | 围攻奥格瑞玛</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="brief-page">
+<body class="h10-page">
   <div class="bg-embers" aria-hidden="true"></div>
 
   <header class="site-header">
@@ -22,31 +22,31 @@
     </div>
     <nav class="top-nav" aria-label="主导航">
       <a href="index.html">攻略主页</a>
-      <a href="h10.html">10H</a>
-      <a href="brief.html" aria-current="page">战前安排</a>
+      <a href="h10.html" aria-current="page">10H</a>
+      <a href="brief.html">战前安排</a>
       <a href="quiz.html">测验</a>
     </nav>
   </header>
 
   <main>
-    <section class="section brief-hero">
+    <section class="section h10-hero">
       <div class="section-head">
-        <h2>团长战前安排</h2>
-        <p>英雄难度开打前清单：人员分工、站位、时间轴、喊话与红线。按 Boss 点左侧快速跳转；细节机制仍以攻略页为准。</p>
+        <h2 id="h10Title">10 人英雄攻略</h2>
+        <p id="h10Lead"></p>
+        <p class="h10-roster" id="h10Roster"></p>
       </div>
-      <div class="brief-layout">
-        <aside class="brief-nav" id="briefNav" aria-label="Boss 列表"></aside>
-        <div class="brief-list" id="briefList"></div>
+      <div class="h10-layout">
+        <aside class="h10-nav" id="h10Nav" aria-label="Boss 列表"></aside>
+        <article class="h10-panel" id="h10Panel"></article>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p><a href="index.html">返回攻略</a> · <a href="quiz.html">职责测验</a> · 战前安排以英雄为准</p>
+    <p><a href="index.html">返回主攻略</a> · 10 人英雄细致流程 · 其余 Boss 陆续更新</p>
   </footer>
 
-  <script src="data.js"></script>
-  <script src="brief-data.js"></script>
-  <script src="brief.js"></script>
+  <script src="h10-data.js"></script>
+  <script src="h10.js"></script>
 </body>
 </html>
