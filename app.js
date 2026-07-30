@@ -37,9 +37,9 @@
           <circle cx="110" cy="190" r="6" fill="none" stroke="#9b6bc9" stroke-dasharray="3 2"/>
           <text x="90" y="220" text-anchor="middle" fill="#b9a08a" font-size="10">煞能箭虚空</text>
           <path d="M55 120 Q210 35 365 120" fill="none" stroke="#c9a06a" stroke-dasharray="5 4"/>
-          <text x="210" y="28" text-anchor="middle" fill="#c9a06a" font-size="12">环形散开 ≥5 码</text>
+          <text x="210" y="28" text-anchor="middle" fill="#c9a06a" font-size="12">25H 半弧散开 ≥5 码</text>
         `),
-        "腐蚀清零 · 环形散开 · 黑软打/白软奶"
+        "25H · 坦对侧 · 半弧散开 · 黑软打/白软奶"
       ),
       protectors: base(
         svgWrap(`
@@ -187,7 +187,7 @@
           }).join("")}
           <text x="210" y="125" text-anchor="middle" fill="#b9a08a" font-size="11">顺序击杀</text>
         `),
-        "MythicTrap 序 · 单点 · Debuff 分坦"
+        "推荐击杀序 · 单点 · Debuff 分坦"
       ),
       garrosh: base(
         svgWrap(`
@@ -304,7 +304,7 @@
                       }
                     )
                     .join("")}</div>
-                  <p class="video-credit">演示视频来自 MythicTrap</p>`
+                  <p class="video-credit">机制演示</p>`
                 : "";
               return `
             <div class="skill-card${vids.length ? " has-video" : ""}">
@@ -342,7 +342,16 @@
     `;
   }
 
-  /* init */
+  /* init — 支持 #boss-<id> 从战前安排跳转 */
+  const hashBoss = (location.hash || "").match(/^#boss-([a-z0-9-]+)$/i);
+  if (hashBoss && window.SOO.bosses.some((b) => b.id === hashBoss[1])) {
+    activeBossId = hashBoss[1];
+  }
   renderNav();
   renderBoss();
+  if (hashBoss && bossPanel) {
+    requestAnimationFrame(() => {
+      document.getElementById("guides")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 })();
