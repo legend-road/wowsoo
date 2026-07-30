@@ -19,6 +19,10 @@
     rook: "洛克绝命",
     he: "何绝命",
     sun: "孙绝命",
+    assault: "突击阶段",
+    siege: "攻城阶段",
+    early: "前半",
+    late: "后半",
   };
 
   function ul(items) {
