@@ -89,13 +89,20 @@ a:hover { color: #ffd09a; }
   color: var(--ink);
 }
 
-.top-nav { display: flex; gap: 1.25rem; }
+.top-nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
 .top-nav a {
   color: var(--muted);
   font-size: 0.95rem;
   letter-spacing: 0.04em;
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
 }
 .top-nav a:hover { color: var(--ink); }
+.top-nav a[aria-current="page"] {
+  color: var(--accent-2);
+  border-bottom-color: var(--accent);
+  font-weight: 700;
+}
 
 .hero {
   position: relative;
@@ -873,6 +880,240 @@ a:hover { color: #ffd09a; }
 }
 .brief-red ul { color: #e8a0a0; }
 
+/* —— 10H 战前（技能 + 战术） —— */
+.brief-h10-page .brief-block {
+  margin: 0 0 1rem;
+}
+.brief-h10-page .brief-block h4,
+.brief-h10-page .brief-block h5 {
+  margin: 0 0 0.4rem;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
+  color: var(--bronze);
+}
+.brief-h10-page .brief-block h5 {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+.brief-h10-page .brief-block ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+.brief-h10-page .brief-block li { margin: 0.32rem 0; line-height: 1.5; }
+.brief-skill-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+}
+.brief-skill {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.18);
+}
+.brief-skill h5 {
+  margin: 0 0 0.35rem;
+  font-size: 0.98rem;
+  color: var(--accent-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.brief-skill h5 span {
+  font-weight: 400;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.brief-skill p {
+  margin: 0;
+  font-size: 0.94rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.brief-dmg {
+  margin: 0 0 0.35rem !important;
+  font-size: 0.88rem !important;
+  color: var(--accent-2) !important;
+  line-height: 1.4 !important;
+}
+.brief-dmg span {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--bg);
+  background: var(--bronze);
+  vertical-align: middle;
+}
+.brief-span-2 { grid-column: 1 / -1; }
+.brief-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.brief-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--bg);
+  background: var(--accent-2);
+  vertical-align: middle;
+}
+.brief-legacy-note {
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.brief-nav-new { color: var(--ink); }
+.brief-phase-grid,
+.brief-tl-note {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.brief-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.4rem;
+}
+.brief-tl-row {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.18);
+  margin: 0 !important;
+}
+.brief-tl-row time {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--accent-2);
+  font-size: 0.95rem;
+}
+.brief-tl-row span {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.brief-tl-row.brief-tl-gift {
+  border-color: rgba(202, 138, 4, 0.55);
+  background: rgba(120, 80, 10, 0.22);
+}
+.brief-tl-row.brief-tl-gift time {
+  color: #fbbf24;
+}
+.brief-tl-row.brief-tl-gift span {
+  color: #fde68a;
+}
+.brief-cd-grid,
+.brief-flow-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+.brief-phase .h10-diagram,
+.brief-diagram {
+  margin: 0.55rem 0 0.75rem;
+}
+.brief-phase-grid .brief-phase:has(.h10-diagram) {
+  grid-column: 1 / -1;
+}
+.brief-phase,
+.brief-cd,
+.brief-flow-step {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.16);
+}
+.brief-phase h5,
+.brief-cd h5,
+.brief-flow-step h5 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  color: var(--accent-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+.brief-cd h5 span,
+.brief-skill h5 span {
+  font-weight: 400;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.brief-cd p {
+  margin: 0;
+  font-size: 0.94rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.brief-phase ul,
+.brief-flow-step ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+.brief-phase li,
+.brief-flow-step li { margin: 0.45rem 0; }
+.brief-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  background: rgba(232, 93, 42, 0.2);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-family: var(--font-display);
+}
+.brief-roles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+.brief-roles > div {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.16);
+}
+.brief-roles h5 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  color: var(--accent-2);
+}
+.brief-roles ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+.brief-roles li { margin: 0.25rem 0; }
+
 /* —— 10H 细致攻略 —— */
 .h10-page .h10-hero { padding-top: 2rem; }
 .h10-roster {
@@ -1060,12 +1301,18 @@ a:hover { color: #ffd09a; }
   background: #120904;
 }
 .h10-diagram svg { display: block; width: 100%; height: auto; }
+.h10-diagram img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #0b1220;
+}
 .h10-diagram-cap {
   margin: 0;
-  padding: 0.55rem 0.75rem 0.7rem;
-  font-size: 0.82rem;
+  padding: 0.75rem 1rem 0.9rem;
+  font-size: 1rem;
   color: var(--muted);
-  line-height: 1.45;
+  line-height: 1.65;
   border-top: 1px solid var(--line);
 }
 .h10-diagram-empty {
@@ -1105,6 +1352,9 @@ a:hover { color: #ffd09a; }
     grid-template-columns: repeat(2, 1fr);
   }
   .brief-grid { grid-template-columns: 1fr; }
+  .brief-skill-grid { grid-template-columns: 1fr; }
+  .brief-span-2 { grid-column: auto; }
+  .brief-roles { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 960px) {

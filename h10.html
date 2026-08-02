@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="h10-page">
+<body class="brief-page brief-h10-page h10-page">
   <div class="bg-embers" aria-hidden="true"></div>
 
   <header class="site-header">
@@ -29,21 +29,25 @@
   </header>
 
   <main>
-    <section class="section h10-hero">
+    <section class="section brief-hero">
       <div class="section-head">
         <h2 id="h10Title">10 人英雄攻略</h2>
-        <p id="h10Lead"></p>
+        <p id="h10Lead">开打前讲解：技能/机制（含伤害类型）→ 分阶段站位（含站位图）→ 减伤循环 → 打法流程 → 坦/DPS/治疗注意。1–4 号已按新模板；其余陆续升级。</p>
         <p class="h10-roster" id="h10Roster"></p>
       </div>
-      <div class="h10-layout">
-        <aside class="h10-nav" id="h10Nav" aria-label="Boss 列表"></aside>
-        <article class="h10-panel" id="h10Panel"></article>
+      <div class="brief-layout">
+        <aside class="brief-nav" id="h10Nav" aria-label="Boss 列表"></aside>
+        <div class="brief-list" id="h10List"></div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p><a href="index.html">返回主攻略</a> · 10 人英雄细致流程 · 其余 Boss 陆续更新</p>
+    <p>
+      <a href="index.html">返回攻略</a> ·
+      <a href="brief.html">通用战前</a> ·
+      10 人英雄 · 以战前讲解结构为主
+    </p>
   </footer>
 
   <script src="h10-data.js"></script>

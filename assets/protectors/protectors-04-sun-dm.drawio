@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="wowsoo" version="22.1.0" type="device">
+<diagram id="page4" name="4-孙绝命">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="301" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1100" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="302" value="堕落的守护者 — 10H 孙绝命（黑暗冥想）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=20;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="720" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="303" value="中央减伤罩约 −35% · DPS/治疗进罩 · 远程罩外大体 · 近战罩内小怪" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="40" y="56" width="820" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="304" value="⚠ 何留池必须坦在罩外；绝命前勿把毒池铺在罩位！洛克踢时短出再进" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="88" width="820" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="305" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="280" y="150" width="520" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="306" value="冥想力场
+−35% 受伤
+站边缘" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4C1D95;fillOpacity=30;strokeColor=#A78BFA;strokeWidth=3;dashed=1;fontColor=#E9D5FF;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="300" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="307" value="近1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="480" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="308" value="近2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="309" value="近3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="500" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="310" value="治疗1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="460" y="420" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="311" value="治疗2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="545" y="430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="312" value="远程?
+可出" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="510" y="360" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="313" value="小" style="ellipse;fillColor=#581C87;strokeColor=#C084FC;fontColor=#F3E8FF;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="470" y="460" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="314" value="小" style="ellipse;fillColor=#581C87;strokeColor=#C084FC;fontColor=#F3E8FF;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="540" y="470" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="315" value="大化身A
+远程优先" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="316" value="大化身B
+远程优先" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="680" y="250" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="317" value="远程1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="300" y="340" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="318" value="远程2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="700" y="340" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="319" value="远程3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="400" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="320" value="何
+留池拉外" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="700" y="480" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="321" value="何T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="760" y="500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="322" value="洛克
+尽量罩外" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="340" y="500" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="323" value="洛克T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="300" y="540" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="324" value="洛克腐化踢 →
+短出罩再进
+勿封死罩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=8;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="820" y="200" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="325" value="罩内小怪伤
+反馈到大化身" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=8;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="820" y="300" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="326" value="毒池禁铺罩位！" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=8;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="820" y="380" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="327" value="【孙绝命要点】
+1. DPS/治疗进中央罩（约 −35%）
+2. 站罩边缘：洛克踢时短暂出罩
+3. 罩外两只大体（不共享）远程打
+4. 罩内小怪近战清（伤反馈大体）
+5. 何留池期：坦在罩外
+6. 绝命前清掉罩位附近毒池
+7. 洛克尽量拉在罩外
+8. 罩外硬站会被暗影跳打崩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=8;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="220" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="328" value="【图例】
+紫虚线圆 = 冥想罩
+紫大圆 = 大化身
+紫小圆 = 罩内小怪
+红 = 坦（罩外）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=6;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="430" width="220" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

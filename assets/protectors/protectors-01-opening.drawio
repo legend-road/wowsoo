@@ -1,0 +1,340 @@
+<mxfile host="app.diagrams.net" agent="wowsoo" pages="4">
+  <diagram name="1-开场常态" id="fwCPbAz_OSP99ACHMawi">
+    <mxGraphModel dx="1414" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="780" width="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 开场/三人常态站位" vertex="1">
+          <mxGeometry height="36" width="700" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="三人靠近 cleave · 洛克锥形背离大团 · 何开场瞬发剧毒可叠站 · 孙原地 · 嗜血开场" vertex="1">
+          <mxGeometry height="28" width="780" x="40" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 洛克正面=复仇打击锥形危险区！远程勿挡对撞路径。绝命序：洛克→何→孙" vertex="1">
+          <mxGeometry height="28" width="780" x="40" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="520" width="520" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="洛克" vertex="1">
+          <mxGeometry height="70" width="70" x="430" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="何" vertex="1">
+          <mxGeometry height="70" width="70" x="510" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="孙" vertex="1">
+          <mxGeometry height="70" width="70" x="470" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="triangle;whiteSpace=wrap;html=1;fillColor=#7F1D1D;fillOpacity=35;strokeColor=#EF4444;strokeWidth=2;dashed=1;fontColor=#FECACA;fontSize=17;fontStyle=1;direction=west;" value="危险区 复仇打击锥形 物理" vertex="1">
+          <mxGeometry height="140" width="120" x="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T" vertex="1">
+          <mxGeometry height="54" width="54" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T" vertex="1">
+          <mxGeometry height="54" width="54" x="590" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近1" vertex="1">
+          <mxGeometry height="44" width="44" x="450" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近2" vertex="1">
+          <mxGeometry height="44" width="44" x="500" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近3" vertex="1">
+          <mxGeometry height="44" width="44" x="475" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="治疗1" vertex="1">
+          <mxGeometry height="48" width="48" x="450" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程1" vertex="1">
+          <mxGeometry height="48" width="48" x="505" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程2" vertex="1">
+          <mxGeometry height="48" width="48" x="450" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="治疗2" vertex="1">
+          <mxGeometry height="48" width="48" x="505" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程3" vertex="1">
+          <mxGeometry height="48" width="48" x="475" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=25;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=17;" value="安全 cleave 堆 (洛克背后)" vertex="1">
+          <mxGeometry height="40" width="140" x="430" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【开场要点】 1. 三人靠近便于顺劈；嗜血开场 2. 洛克T把锥形朝外（左），仍尽量贴何/孙 3. 何开场=瞬发剧毒，可叠站；换留池后拉边 4. 孙不占坦，原地读灼烧（打断） 5. 远程勿站在洛克冲锋路径上 6. 控血留缓冲，禁双绝命" vertex="1">
+          <mxGeometry height="220" width="220" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【图例】 ● 红 = 坦克 ● 蓝 = 近战 ● 橙 = 远程 ● 绿 = 治疗 ● 灰 = Boss 三角虚线 = 危险扇区" vertex="1">
+          <mxGeometry height="160" width="220" x="40" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="何留池期 → 拉向场边 勿污染孙绝命中央罩位" vertex="1">
+          <mxGeometry height="70" width="220" x="820" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="孙：打断灼烧 祸 3 秒双驱 灾祸排减伤" vertex="1">
+          <mxGeometry height="80" width="220" x="820" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="2-洛克绝命" id="QUw4RML9pEo0vWm_XiPt">
+    <mxGraphModel dx="1488" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="780" width="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 洛克绝命（三化身）" vertex="1">
+          <mxGeometry height="36" width="720" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="刷新点固定 · 英雄三化身共享血 · 靠近哀伤集合 · 阴郁拉近打断 · 悲苦外拉放圈" vertex="1">
+          <mxGeometry height="28" width="820" x="40" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 开战前用世界标记标好三化身刷新点！炼狱分摊时灼烧目标必须出列" vertex="1">
+          <mxGeometry height="28" width="820" x="40" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="520" width="520" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="哀伤 (固定) 炼狱分摊" vertex="1">
+          <mxGeometry height="80" width="80" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="107" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="阴郁 (可拉) 必打断" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="108" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="困苦 (外拉) 黑圈" vertex="1">
+          <mxGeometry height="80" width="80" x="620" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="109" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#CBD5E1;fontSize=16;" value="刷新点A 哀伤" vertex="1">
+          <mxGeometry height="30" width="70" x="490" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="110" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#CBD5E1;fontSize=16;" value="刷新点B 阴郁" vertex="1">
+          <mxGeometry height="30" width="70" x="300" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="111" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#CBD5E1;fontSize=16;" value="刷新点C 悲苦" vertex="1">
+          <mxGeometry height="30" width="70" x="680" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="113" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T 接困苦" vertex="1">
+          <mxGeometry height="60" width="60" x="670" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="114" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T 除了困苦全拉" vertex="1">
+          <mxGeometry height="60" width="60" x="490" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="115" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近1" vertex="1">
+          <mxGeometry height="40" width="40" x="470" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="116" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近2" vertex="1">
+          <mxGeometry height="40" width="40" x="520" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="117" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程1" vertex="1">
+          <mxGeometry height="40" width="40" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="118" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程2" vertex="1">
+          <mxGeometry height="40" width="40" x="500" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="119" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程3" vertex="1">
+          <mxGeometry height="40" width="40" x="550" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="120" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="治疗1" vertex="1">
+          <mxGeometry height="40" width="40" x="470" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="121" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="治疗2" vertex="1">
+          <mxGeometry height="40" width="40" x="520" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="122" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=25;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=17;" value="炼狱 8 码分摊区 (圈内略散)" vertex="1">
+          <mxGeometry height="36" width="140" x="440" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="123" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="何 (仍在场)" vertex="1">
+          <mxGeometry height="60" width="60" x="310" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="124" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="孙 (仍在场)" vertex="1">
+          <mxGeometry height="60" width="60" x="280" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【洛克绝命要点】 1. 三刷新点固定，开战前打世界标记 2. 哀伤原地不动 → 大团去哀伤旁 3. 阴郁拉到哀伤：打断腐蚀震击+cleave 4. 悲苦外拉：永久黑圈靠边放 5. 洛克原坦接阴郁；另一坦抗何+悲苦 6. 英雄共享血，技能全程在 7. 炼狱约 360 万/8 码：略散；灼烧出列 8. 场上何/孙技能仍要处理" vertex="1">
+          <mxGeometry height="280" width="220" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【图例】 紫 = 化身 红 = 坦克 蓝/橙/绿 = 职责 虚线绿框 = 炼狱集合" vertex="1">
+          <mxGeometry height="120" width="220" x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="阴郁 → 拉向哀伤 近战打断+多目标" vertex="1">
+          <mxGeometry height="60" width="220" x="820" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="128" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="悲苦黑圈 = 永久 尽量远离大团" vertex="1">
+          <mxGeometry height="60" width="220" x="820" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3AZl-Hw3xmcDcdoePttJ-141" parent="1" style="shape=stencil(rVjJbttADP0aXwnOPjyn6X8EiFMbdePAcbr8fSkIckVKem6B3uQxn7g9LqNdeng/PL3td5Hfr5fz1/2P4/P1sEufdjEeXw/7y/GqT7v0uEsPL+fL/svl/PH6PP5+exokh6dv5+/DG36OOCYJAyjyr+kgjgefR/HT8XUmHqkmI347WBXP1MSIF6pxW1yoFCMeAkUgHyrlZgGdRID5hXK29ncKfRuQKhWrIXVqGXjciasBZKEETCpC0WootzCsAqq6GA1ATzLwoVVKNmmtUKrbgB6osAF0nl6xDigUuwUkmIfeqFune6WIAOLzoK9oDVCJqTuTOnXggwTqlnyqM4MoSaRmNajOCBInyVeD6kzIBy0fmzjVGZFJxTutOjNyWqhatkqjzBDgoqSAhkpaSJwGrThQQIGZmD2iYpvE2SRTEW46ET0Aplp829MTyL5bzc8AgjUEq2EWh3VEX+Ra3QIlNESxekAFmVCAawMKiKDRKCAvMtexhiUg3dFg24DSTxDB+zRwZgDUXeXWJWYA6LRyrXsAIvjAjbwAIJO094kHJDCkB3IuAPcqaOE06t/rRZqx19I9QLATbkQMgcO9rC3oWnHm8qKC7pgULZn+okh991MVuCJ8y5fp5D8BCgUXpjLRZWtsiWNTngi5NRg9IE2dZGv0Jhcl3UBQIniam7PRW0EJ6Sh3Tg/DHWjQ7SLbsA4rC1pQMnWnoVDBSxY7DQGyT5c2VxC62AleFLMNa+OpV62votr77GWgBtiZcvOdqTDsG7pOswVkTSXQoDcIt+xGPHlDWQAY58H3pRBhOeSpud+CitcZv5soHpjPiw4z0WpDPHhxdB3T9Lv7FWWwu6l4cOIBRGYxEhjSU8WjE2+A/uzHLFOGxoTqxBMMpLuEMSQ++/VOrQMkUAYmLw6Nqd4YhpHpPu4MI/NPN/674vrw5+PCy/F0Gr9NzP/3HyP0aPyQkR5/Aw==);lineShape=1;strokeColor=#FF3333;" value="" vertex="1">
+          <mxGeometry height="59.04641304280631" width="105.24570350742651" x="329.2998758794472" y="273.40538865621124" as="geometry" />
+        </mxCell>
+        <mxCell id="3AZl-Hw3xmcDcdoePttJ-142" parent="1" style="shape=stencil(lVjLctswDPwaXTEg+D6n6X9kJk7tqRtnHPf194WqoSpC0rq5ydKCBAEsFvTgH96PT2+HQfj9dr18Pfw8Pd+Og/80iJxej4fr6aZPg38c/MPL5Xr4cr18f32efr89jcjx6dvlx7jCr8lOHIU8Wgn/nt4wFf774vOEP59el/hEnDp8IQ77eC/kuMO7SMXtGwSmFDoDicQVGFQqvUdeDcq+QSwUfGcQAsW4b5AyudoZxEAJBCnHtl4zSIECcKl4kj4L2UODyiS9S0UDDfJQNW/9oUslBmeotTnQDKqnCFxyzG3B2aKQIJ+y9Uk3LcBAXa59bSw23c5EJeesTxlsMSbKHCJRReVXWjnPBlocAhnB/SGqtD23A5vImUy4RsJtA4pmA4aE0NX6E4xxzvt4ppgsPoMTa62KxXvgP69KtVCF61v/leFwfZctnuH6hgkltx61g69i8ei8zvYjxYtH+JpXeOCPbPjvQUkLVV6dF9SPt+1xjCeoH09eLD4ixpAUi0eU9G33Rb0FIDlCeVX/GeRLWrSXfAH+uMaO/+aj5Tvfqc/M1p8C8Tb+Gh/g/+ztUjpgfzA6oPlKIP5sRwTFO8hfb/pPpgz0m1s2F/gA+OJIosUL5G+uKzyI/4fxieI6QIhgYuePOxkOM0EWEpPQSBSorKYD1KNViKMxiE1G9rTe7pCgrupnQwPdwaEJx6+knmFfH9ugIY6HhVe4BXEe69QlYJC19fZ5SAkaaB6MFsdEHnAtxtYa5uEXG4Rs2eBTy8x28eXWDOcBPrVTbbfT2tRunuoyHH5HgeobfIX64YoVECGP+F/s0KiKi/q1yl00eNTvRnw1eKj3xQqO3tEA/RVvBJ/h/UbxhQ1ekJ5VK/jcAraHT87gGRUE23jiIX89oGF9HcNn8QLiM6bH+h+RPx+9U9/F68O/C/zL6Xye7v/L7/bCr6+mPwv84x8=);lineShape=1;strokeColor=#FF3333;" value="" vertex="1">
+          <mxGeometry height="37.7840788188338" width="32.60474606713998" x="410.78329313986615" y="300.7754030727731" as="geometry" />
+        </mxCell>
+        <mxCell id="3AZl-Hw3xmcDcdoePttJ-143" parent="1" style="shape=stencil(lVjLbhsxDPwaXwlJ1IM8p+1/BIjTGE3jwElff19uDdkryjtFbvYuZ8WhhhSpHd+9Pd2/7ncpvL2fjt/2vw4P7087/rRL6fDytD8d3u3Xjj/v+O7xeNp/PR1/vDyc/7/eL5bLr+/Hn8sXfp9xgWpeQCn86Q9C+vfgy9n8+fCyMmcKxZm3vG1eqYzmiUrYNo+JeLSvlMu2va0udbCPTE2B+0aXR4cSJJAD6bgCG4C3ASVSjAMgM8UKANopdkBJFCKIaSXRMUiBuG0DGlMZSddGKgAg/XsdYJ+oIKySumgugEYCXJJMaZSdGAcQJSmUZQREakAaUimNHMzJDDZOGqWRg9jGIdIWpegBDeSOKMUwAjJlFCUlcS4VYpA/GvxOWxgiWEEjZedSgxmqaYqSQA5qQRzlbawq2GnNFMaNM1ZISwaQkbSxqkAaWrr6LwCcolq7+i+A3AvVbYDl9ChvbVRBxhnAr9B6lm8BxHEQqFYDeNJCBZE2gHqAYtI65oM9YZBx9rqxB8CNs7CqBwgOa5pcUhQlucEBlUoD1ImDIA7iM24hjTJOfKlcWKF8kC7m1cZBLV2Us5YGdomDB0Rwil6/t5Y3jlKrHgCrhvrGxAAFS4MnQMVqrXHigKKkU10SCtglnTYOHVkxWLM2bYSAI2hZYhYTaDYWEpNcC87RIh4geAWeUw7pW3t7dGn6rnHYVFOalkA+fRhQeqW7AAoWeO6VbnWkFCQ/7lFcHVoJqSlNBd+6a5SkaUqh2M/urebBHe2Khwd7nVy3IbhNtILvuo2GG9GpblgDhNR3/d6qxYJtYp1arAzrhn2vTm0iKvgy9TOCR47le66ZjrBNtNd5dMk6flTKrJtv4wotd1a3Acmfo1VgAtlQk0a11tjrwu2xSfzoZ2MTKhtl6o1zhoeWjX48SoMZzoo2XIYRYONyAylq46urGjF3VrcLfiQdE8gOOZAO1ecbQyElLzyrCMCb4FUU4Rhqya/eHBSLQFGceQK+Bz9bxf5gwzz4aw+FVN05G+A1ww1zVCLMnJ15xs6IM0eZEvoEeDVHg0Lwc/NF1RvmLknwEWBJGL053KYP3U7919x+XC/CHg/Pz+d7tPV7f3Fmj86Xbvz5Lw==);lineShape=1;strokeColor=#FF3333;" value="" vertex="1">
+          <mxGeometry height="85.71888337938857" width="112.92142254855662" x="355.61755250276224" y="211.29906710269802" as="geometry" />
+        </mxCell>
+        <mxCell id="3AZl-Hw3xmcDcdoePttJ-144" parent="1" style="shape=stencil(lVfLbhsxDPyavRKSqOc5Tf8jQJzaqGsHjtsmf18KW61XlHeCADk49lDiYzikJn542z+97iZn3q6X88/d38PzdT/xt8m5w2m/uxyu8mnix4kfXs6X3Y/L+ffpef7/9aki66df5z/1hPfZLnqKqVo58zF/Y6n+J3/fZ/zxcFrhkyEOHb5QiACfiHOHd45s2jbInnLpDDhDj4qlEjuDECgZYBDJ9TfUoEAMJVPqb8i2ZeG+QaFie4NCJm8bWGPImD6tTBmkSYLQdcjQIKeW9qXQt0vvl07CHq5Idtsgys+uN4iw1iFS6H0qjgy4wXuyPZtypAhiYEeeewMDYxD6x77WKZADtbZMtg9a2BTADbYd1/DSgihJpgW44Lm5uIFXdY6OCuDewDzBO+C/nN9zO9qW4w2877stmkaTjfyYAW9BvJayav9CGVW41X+FR3LBTd/W53vAUWKn/Uf65akYjc/AnzDwx1IA54fBH0cMz1d8Fr4ZkH+vG0bwCfCBqaj6epgf6a8BH4D/Eh0PeOCPbaet8Cg/wt6i481AIIyeNoJH8Uo/Kv9Fw6A+GK/5EGG/6/wYKtD/nDSecT77eKVfCqyXUujaj6B/Weez4iE/Tdb+G5DPr+JtGAQ6QofqDWpi2Naj9yP2TXAWA5l6oGQ+DlNPNB1oVsjk1YaTyIEiy4xTXVkMXD+SFGkY9UimZbCrtU42IpTWIjKiViiP1zpROpWlQhFtmr4NonVa8Woaey5Jpf9Pw60ljRW5E9w+8qAu3jR23a+D07tsHViAGjHoLdA66NKtHReX2kTfwivuMdyfBM/9ABciAb2reFb4T/wPfXtKFUEr1HVAv6CQXsThBSUbHtqqF3m+4R2gdZV/q/Boftd1YMADva7rgMZbjI/af0i4ZR244dG++NUX7Od4+XB7Lr8cjsf5tb3+XT+v5av5ac6P/wA=);lineShape=1;strokeColor=#FF3333;" value="" vertex="1">
+          <mxGeometry height="25.663969198172758" width="23.340290805445207" x="449.05772337184317" y="278.582748950196" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3-何绝命" id="nSvwV7qt5YYrknLWgmHC">
+    <mxGraphModel dx="1488" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="201" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="780" width="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="202" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 何绝命（苦痛印记）" vertex="1">
+          <mxGeometry height="36" width="700" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="203" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="集火苦痛化身 · 印记 5–7 层传递 · 勿默认传坦 · 法师冰箱可先接" vertex="1">
+          <mxGeometry height="28" width="780" x="40" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="204" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 每次传递全团叠暗影易伤；持印者约 90% 减甲 / 约 4 分钟" vertex="1">
+          <mxGeometry height="28" width="780" x="40" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="205" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="520" width="520" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="206" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="洛克 (可在)" vertex="1">
+          <mxGeometry height="64" width="64" x="420" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="207" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="孙 (可在)" vertex="1">
+          <mxGeometry height="64" width="64" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="208" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="苦痛化身 集火" vertex="1">
+          <mxGeometry height="80" width="80" x="470" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="209" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="印记1 法师" vertex="1">
+          <mxGeometry height="56" width="56" x="380" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="210" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="印记2" vertex="1">
+          <mxGeometry height="50" width="50" x="470" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="211" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="印记3" vertex="1">
+          <mxGeometry height="50" width="50" x="560" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="212" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="印记4" vertex="1">
+          <mxGeometry height="50" width="50" x="470" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="213" parent="1" style="text;html=1;fontColor=#F97316;fontSize=19;fontStyle=1;" value="传递链 →" vertex="1">
+          <mxGeometry height="24" width="100" x="380" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="214" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T" vertex="1">
+          <mxGeometry height="50" width="50" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="215" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T 勿接印" vertex="1">
+          <mxGeometry height="56" width="56" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="216" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=25;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=17;" value="近战/远程 打化身" vertex="1">
+          <mxGeometry height="36" width="120" x="440" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="217" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;【何绝命要点】&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 击杀苦痛化身结束绝命（约 5000 万）&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2. 化身平砍很低，主要麻烦是印记&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3. 印记者定身+暗影 DoT+叠易伤&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4. 预排 3–4 人传递链，约 5–7 层传&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;5. 法师冰箱可先硬吃约 10 秒 6. 默认勿传坦克（90% 减甲） 7. 通常 3–4 次传递可杀掉 8. 可与洛克/孙叠一起打，听指挥 9. 首杀不建议何+孙同绝命&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="220" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="218" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【传递示例】 法师(冰箱) → 指定DPS → 指定DPS → … 约 5–7 层开减伤再传 禁止无脑来回丢" vertex="1">
+          <mxGeometry height="140" width="220" x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="219" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="额外动作按钮传递 宏：/tar 指定 → EAB" vertex="1">
+          <mxGeometry height="70" width="220" x="820" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4-孙绝命" id="kCTc8D_bTNPDmUmIDpLh">
+    <mxGraphModel dx="1488" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="301" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="780" width="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="302" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 孙绝命（黑暗冥想）" vertex="1">
+          <mxGeometry height="36" width="720" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="303" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="中央减伤罩约 −35% · DPS/治疗进罩 · 远程罩外大体 · 近战罩内小怪" vertex="1">
+          <mxGeometry height="28" width="820" x="40" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="304" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 何留池必须坦在罩外；绝命前勿把毒池铺在罩位！洛克踢时短出再进" vertex="1">
+          <mxGeometry height="28" width="820" x="40" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="305" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="520" width="520" x="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="306" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#4C1D95;fillOpacity=30;strokeColor=#A78BFA;strokeWidth=3;dashed=1;fontColor=#E9D5FF;fontSize=17;fontStyle=1;" value="冥想力场 −35% 受伤 站边缘" vertex="1">
+          <mxGeometry height="240" width="240" x="420" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="307" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近1" vertex="1">
+          <mxGeometry height="40" width="40" x="480" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="308" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近2" vertex="1">
+          <mxGeometry height="40" width="40" x="530" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="309" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="近3" vertex="1">
+          <mxGeometry height="40" width="40" x="500" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="310" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="治疗1" vertex="1">
+          <mxGeometry height="40" width="40" x="460" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="311" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="治疗2" vertex="1">
+          <mxGeometry height="40" width="40" x="545" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="312" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程? 可出" vertex="1">
+          <mxGeometry height="44" width="44" x="510" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="313" parent="1" style="ellipse;fillColor=#581C87;strokeColor=#C084FC;fontColor=#F3E8FF;fontSize=15;" value="小" vertex="1">
+          <mxGeometry height="28" width="28" x="470" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="314" parent="1" style="ellipse;fillColor=#581C87;strokeColor=#C084FC;fontColor=#F3E8FF;fontSize=15;" value="小" vertex="1">
+          <mxGeometry height="28" width="28" x="540" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="315" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="大化身A 远程优先" vertex="1">
+          <mxGeometry height="70" width="70" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="316" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="大化身B 远程优先" vertex="1">
+          <mxGeometry height="70" width="70" x="680" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="317" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程1" vertex="1">
+          <mxGeometry height="44" width="44" x="300" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="318" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程2" vertex="1">
+          <mxGeometry height="44" width="44" x="700" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="319" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程3" vertex="1">
+          <mxGeometry height="44" width="44" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="320" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="何 留池拉外" vertex="1">
+          <mxGeometry height="60" width="60" x="585" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="321" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T" vertex="1">
+          <mxGeometry height="50" width="50" x="610" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="322" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="洛克 尽量罩外" vertex="1">
+          <mxGeometry height="60" width="60" x="410" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="323" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T" vertex="1">
+          <mxGeometry height="50" width="50" x="390" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="324" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="洛克腐化踢 → 短出罩再进 勿封死罩" vertex="1">
+          <mxGeometry height="80" width="220" x="820" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="325" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="罩内小怪伤 反馈到大化身" vertex="1">
+          <mxGeometry height="60" width="220" x="820" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="326" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="毒池禁铺罩位！" vertex="1">
+          <mxGeometry height="50" width="220" x="820" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="327" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【孙绝命要点】 1. DPS/治疗进中央罩（约 −35%） 2. 站罩边缘：洛克踢时短暂出罩 3. 罩外两只大体（不共享）远程打 4. 罩内小怪近战清（伤反馈大体） 5. 何留池期：坦在罩外 6. 绝命前清掉罩位附近毒池 7. 洛克尽量拉在罩外 8. 罩外硬站会被暗影跳打崩" vertex="1">
+          <mxGeometry height="260" width="220" x="40" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="328" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【图例】 紫虚线圆 = 冥想罩 紫大圆 = 大化身 紫小圆 = 罩内小怪 红 = 坦（罩外）" vertex="1">
+          <mxGeometry height="130" width="220" x="40" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

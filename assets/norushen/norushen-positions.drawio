@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="wowsoo" version="22.1.0" type="device">
+  <diagram id="npage1" name="1-开场常态">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="诺鲁什 — 10H 开场 / 常态站位" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="820" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="打融合体 · 开场 75% 腐蚀 = 50% 伤 · 4 黄球进试炼 · 坦克固定面向" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="960" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="⚠ 10H 仅 4 黄球；50% 前完成试炼计划再压血；虚空 ≤75 腐蚀才可踩" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1000" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="400" y="180" width="460" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="融合体" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="565" y="350" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="黄球1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=3;fontColor=#422006;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="450" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="黄球2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=3;fontColor=#422006;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="720" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="黄球3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=3;fontColor=#422006;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="450" y="530" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="黄球4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=3;fontColor=#422006;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="720" y="530" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="主T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="505" y="370" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="副T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="640" y="370" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="近1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="550" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="近2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="605" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="治疗1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="535" y="545" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="治疗2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="595" y="545" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="远程1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="535" y="610" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="远程2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="595" y="610" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="远程3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="565" y="670" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="集合区（盲仇后归位）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=30;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="520" y="450" width="170" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="&lt;b&gt;【开场要点】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 融合体居中不动&#xa;&nbsp;&#xa;2. 坦克面向固定，方便盲仇躲背后&#xa;&nbsp;&#xa;3. 4 黄球按表点球进试炼&#xa;&nbsp;&#xa;4. 大团略集合，方便治疗落地&#xa;&nbsp;&#xa;5. 治疗可打世界标记做集合点&#xa;&nbsp;&#xa;6. 虚空优先坦克踩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="320" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="&lt;b&gt;【图例】&lt;/b&gt;&#xa;&nbsp;&#xa;红 = 坦克&#xa;&nbsp;&#xa;蓝 = 近战&#xa;&nbsp;&#xa;橙 = 远程&#xa;&nbsp;&#xa;绿 = 治疗&#xa;&nbsp;&#xa;黄 = 试炼球&#xa;&nbsp;&#xa;灰 = 融合体" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="630" width="320" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="&lt;b&gt;【腐蚀提示】&lt;/b&gt;&#xa;&nbsp;&#xa;0% 腐蚀 → 约 125% 对 Boss 伤&#xa;&nbsp;&#xa;开场 75% → 约 50% 伤&#xa;&nbsp;&#xa;小怪不受腐蚀惩罚" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=18;fontColor=#FDE68A;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="920" y="300" width="290" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="npage2" name="2-盲仇激光">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="101" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="102" value="诺鲁什 — 10H 盲仇（Blind Hatred）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="820" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="103" value="约 60 秒一次 · 示警后旋转约 3/4 圈 · 集合到 Boss 背后跟随" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="980" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="⚠ 激光近似秒杀！先看无伤示警判定方向，再进背后安全区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="980" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="105" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="400" y="180" width="460" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="融合体" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="565" y="350" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="激光危险区" style="triangle;whiteSpace=wrap;html=1;fillColor=#7F1D1D;fillOpacity=40;strokeColor=#EF4444;strokeWidth=2;dashed=1;fontColor=#FECACA;fontSize=16;fontStyle=1;direction=north;" parent="1" vertex="1">
+          <mxGeometry x="540" y="185" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="安全区 · Boss 背后" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=30;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="520" y="505" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="109" value="主T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="505" y="370" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="110" value="副T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="640" y="370" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="近1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="545" y="530" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="112" value="近2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="600" y="530" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="治疗1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="530" y="585" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="114" value="治疗2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="595" y="585" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="115" value="远程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="645" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="&lt;b&gt;【处理步骤】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 光束先无伤示警几秒&#xa;&nbsp;&#xa;2. 看清旋转方向&#xa;&nbsp;&#xa;3. 全团绕到 Boss 背后&#xa;&nbsp;&#xa;4. 跟着慢转，勿穿越激光&#xa;&nbsp;&#xa;5. 当前光束消前可一直待背后&#xa;&nbsp;&#xa;6. 治疗标记方便归位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="320" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="117" value="&lt;b&gt;【注意】&lt;/b&gt;&#xa;&nbsp;&#xa;减伤救不了硬吃激光&#xa;&nbsp;&#xa;必须靠站位躲开" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=18;fontColor=#FDE68A;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="920" y="320" width="290" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="npage3" name="3-试炼虚空">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="201" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="202" value="诺鲁什 — 10H 试炼编组与虚空节奏" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="920" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="203" value="四球轮换 · 同波 DPS 错开先大 / 先小 · 虚空：坦 → 奶 → 净化坦连踩" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1000" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="204" value="⚠ 同波双大怪回场极易灭团；计划完成前禁止压破 50%" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1000" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="205" value="&lt;b&gt;【波 1 · 同时进】&lt;/b&gt;&#xa;&nbsp;&#xa;人员：T1 · H1 · D1 · D2&#xa;&nbsp;&#xa;占用 4 个黄球&#xa;&nbsp;&#xa;D1：先打大怪，再打小怪&#xa;&nbsp;&#xa;D2：先打小怪，再打大怪&#xa;&nbsp;&#xa;目的：错开大怪回场时间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="380" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="206" value="&lt;b&gt;【波 2】&lt;/b&gt;&#xa;&nbsp;&#xa;人员：T2 · H2 · D3 · D4&#xa;&nbsp;&#xa;同样错开大怪击杀顺序&#xa;&nbsp;&#xa;场上继续处理回场大 / 小怪&#xa;&nbsp;&#xa;虚空按表踩掉" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="150" width="380" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="207" value="&lt;b&gt;【波 3】&lt;/b&gt;&#xa;&nbsp;&#xa;人员：双坦轮换 + D5 / D6&#xa;&nbsp;&#xa;可一人一波，或视输出并进&#xa;&nbsp;&#xa;Boss 接近 50%：停试炼推血&#xa;&nbsp;&#xa;勿与磨损大怪叠在一起" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="840" y="150" width="370" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="208" value="&lt;b&gt;【虚空踩摊表】&lt;/b&gt;&#xa;&nbsp;&#xa;第 1 摊（D1 大怪死后）：当前坦克踩 → 坦变 100 腐蚀&#xa;&nbsp;&#xa;第 2 摊（D2）：治疗 2 踩（非戒律 / 织雾优先）&#xa;&nbsp;&#xa;之后：刚净化完的坦克可连踩最多约 4 摊&#xa;&nbsp;&#xa;应急：指定治疗备援；DPS 仅绝境才踩&#xa;&nbsp;&#xa;条件：个人腐蚀 ≤75 才能踩掉虚空&#xa;&nbsp;&#xa;效果：每摊虚空 +25 腐蚀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="500" width="580" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="209" value="&lt;b&gt;【试炼内速查】&lt;/b&gt;&#xa;&nbsp;&#xa;坦克：断投掷 · 躲砸击&#xa;&nbsp;&#xa;治疗：驱散残留腐化 · 保 NPC&#xa;&nbsp;&#xa;DPS：75 腐 = 1 大 + 3 小&#xa;&nbsp;&#xa;回场大怪约 620 万 · 优先转火&#xa;&nbsp;&#xa;小怪挡弹道（约 13 万）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="500" width="550" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="npage4" name="4-磨损阶段">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="301" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="302" value="诺鲁什 — 10H 50% 后磨损阶段" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="820" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="303" value="每 10% 一只磨损大怪（伤不转 Boss）· 优先转火 · 顶冰寒恐惧" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1000" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="304" value="⚠ 磨损大怪必须当场处理；冰寒恐惧随 Boss 降血越来越痛" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1000" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="305" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="400" y="180" width="460" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="306" value="融合体 ≤50%" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="560" y="350" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="307" value="磨损大怪" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7C3AED;strokeColor=#DDD6FE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="720" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="308" value="虚空" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3B0764;strokeColor=#C084FC;strokeWidth=2;fontColor=#F3E8FF;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="350" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="309" value="主T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="505" y="370" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="310" value="副T 踩虚空" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="640" y="430" width="74" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="311" value="全团转火大怪" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=30;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="535" y="520" width="180" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="312" value="近 / 远 / 奶" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="565" y="580" width="84" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="313" value="&lt;b&gt;【50% 后要点】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 50 / 40 / 30 / 20 / 10% 各刷一只&#xa;&nbsp;&#xa;2. 伤害不转 Boss → 必须转火&#xa;&nbsp;&#xa;3. 死后虚空仍要踩掉&#xa;&nbsp;&#xa;4. DPS 已 0 腐：约 50% 交嗜血；或留给尾段冰寒恐惧&#xa;&nbsp;&#xa;5. 持续换坦、躲盲仇&#xa;&nbsp;&#xa;6. 首杀建议清掉 10% 那只" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;fontStyle=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="320" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="314" value="&lt;b&gt;【冰寒恐惧】&lt;/b&gt;&#xa;&nbsp;&#xa;约每 3 秒魔法团伤&#xa;&nbsp;&#xa;Boss 血越低越高&#xa;&nbsp;&#xa;大约 10 万 → 25 万&#xa;&nbsp;&#xa;尾段奶压是硬指标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=18;fontColor=#FDE68A;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="920" y="300" width="290" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
