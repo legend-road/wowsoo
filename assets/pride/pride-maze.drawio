@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="wowsoo" version="22.1.0" type="device">
+  <diagram id="maze1" name="放逐迷宫固定路线">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="傲之煞 — 放逐迷宫固定路线" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="sub" value="角色自动向前跑，你只负责转向 · 地形每次相同可背 · 外场秒碎片即可出来" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="warn" value="⚠ 碰墙 / 碰游荡小煞 = 死；黄球可捡（碎片 +25% 受伤），别为球硬撞煞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+
+        <!-- left instruction panel -->
+        <mxCell id="panel1" value="&lt;b&gt;【口诀】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 贴右墙往前&#xa;&nbsp;&#xa;2. 绕开右侧凸起&#xa;&nbsp;&#xa;3. 左转绕中心一圈&#xa;&nbsp;&#xa;4. 顺路捡黄球&#xa;&nbsp;&#xa;5. 外场碎片死 = 出来" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="300" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="panel2" value="&lt;b&gt;【图例】&lt;/b&gt;&#xa;&nbsp;&#xa;灰线 = 墙 / 虚空&#xa;&nbsp;&#xa;红线 = 推荐路线&#xa;&nbsp;&#xa;黄圆 = 光明球&#xa;&nbsp;&#xa;紫点 = 游荡小煞&#xa;&nbsp;&#xa;绿点 = 起点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="300" height="310" as="geometry" />
+        </mxCell>
+
+        <!-- maze arena frame -->
+        <mxCell id="arena" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="380" y="150" width="520" height="620" as="geometry" />
+        </mxCell>
+
+        <!-- outer walls suggestion - bottom V corner / right wall -->
+        <mxCell id="wallL" value="" style="endArrow=none;html=1;strokeWidth=8;strokeColor=#94A3B8;fillColor=none;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="700" as="sourcePoint" />
+            <mxPoint x="520" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wallR1" value="" style="endArrow=none;html=1;strokeWidth=8;strokeColor=#94A3B8;fillColor=none;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="760" as="sourcePoint" />
+            <mxPoint x="820" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- jagged protrusion on right wall -->
+        <mxCell id="jag1" value="" style="endArrow=none;html=1;strokeWidth=7;strokeColor=#94A3B8;fillColor=none;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="420" as="sourcePoint" />
+            <mxPoint x="680" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jag2" value="" style="endArrow=none;html=1;strokeWidth=7;strokeColor=#94A3B8;fillColor=none;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="390" as="sourcePoint" />
+            <mxPoint x="740" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jagLabel" value="右侧凸起&#xa;（绕开）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#CBD5E1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="760" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- center pillar / loop target -->
+        <mxCell id="center" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#94A3B8;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="500" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="centerLab" value="中心&#xa;绕圈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#E2E8F0;fontSize=15;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="260" width="70" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- recommended path (red) - as polyline edges with arrows -->
+        <mxCell id="path1" value="" style="endArrow=classic;html=1;strokeWidth=5;strokeColor=#EF4444;fillColor=none;rounded=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="720" as="sourcePoint" />
+            <mxPoint x="700" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="path2" value="" style="endArrow=classic;html=1;strokeWidth=5;strokeColor=#EF4444;fillColor=none;rounded=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="480" as="sourcePoint" />
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="path3" value="" style="endArrow=classic;html=1;strokeWidth=5;strokeColor=#EF4444;fillColor=none;rounded=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="sourcePoint" />
+            <mxPoint x="620" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- loop around center -->
+        <mxCell id="loop" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#EF4444;strokeWidth=5;dashed=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="210" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="loopArrow" value="" style="endArrow=classic;html=1;strokeWidth=5;strokeColor=#EF4444;fillColor=none;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="300" as="sourcePoint" />
+            <mxPoint x="590" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- start marker -->
+        <mxCell id="start" value="起" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="505" y="700" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="startLab" value="起点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#86EFAC;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="565" y="710" width="70" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- step labels on path -->
+        <mxCell id="s1" value="① 贴右墙" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;fontColor=#FEE2E2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="560" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="② 绕凸起" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;fontColor=#FEE2E2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="430" width="90" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="③ 左转绕中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;fontColor=#FEE2E2;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="250" width="120" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- yellow orbs -->
+        <mxCell id="orb1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="610" y="620" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="orb2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="500" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="orb3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="560" y="340" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="orb4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CA8A04;strokeColor=#FDE68A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="28" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- sha hazards -->
+        <mxCell id="sha1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6B21A8;strokeColor=#E9D5FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="450" y="520" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="sha2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6B21A8;strokeColor=#E9D5FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="540" y="400" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="shaLab" value="小煞（会动）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#D8B4FE;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="400" y="480" width="110" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- right tips panel -->
+        <mxCell id="panel3" value="&lt;b&gt;【实战提示】&lt;/b&gt;&#xa;&nbsp;&#xa;外场贴 Boss 秒碎片时&#xa;&nbsp;&#xa;往往只撑几秒就出来&#xa;&nbsp;&#xa;&#xa;&nbsp;&#xa;优先：活着别撞墙&#xa;&nbsp;&#xa;其次：顺路捡黄球&#xa;&nbsp;&#xa;&#xa;&nbsp;&#xa;小煞位置会动&#xa;&nbsp;&#xa;看到就提前转向绕开" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=18;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="930" y="200" width="270" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="panel4" value="&lt;b&gt;参考&lt;/b&gt;&#xa;Level UP 草图整理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=14;fontColor=#94A3B8;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="930" y="650" width="270" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

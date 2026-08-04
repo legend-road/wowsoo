@@ -144,9 +144,121 @@
         const mark = b.brief ? "" : " · 旧版";
         return `<a href="#${cardId(b.id)}" class="brief-nav-link${
           b.brief ? " brief-nav-new" : ""
-        }"><span class="brief-nav-idx">${b.idx}</span>${b.name}${mark}</a>`;
+        }" data-boss-id="${b.id}"><span class="brief-nav-idx">${b.idx}</span>${b.name}${mark}</a>`;
       })
       .join("");
+  }
+
+  function bossById(id) {
+    return data.bosses.find((b) => b.id === id);
+  }
+
+  function setActiveBoss(id, { updateHash = false } = {}) {
+    const boss = bossById(id);
+    if (!boss) return;
+
+    navRoot.querySelectorAll(".brief-nav-link").forEach((a) => {
+      const on = a.getAttribute("data-boss-id") === id;
+      a.classList.toggle("is-active", on);
+      if (on) a.setAttribute("aria-current", "true");
+      else a.removeAttribute("aria-current");
+    });
+
+    const bar = document.getElementById("h10ReadingBar");
+    const idxEl = document.getElementById("h10NowIdx");
+    const nameEl = document.getElementById("h10NowName");
+    if (bar) bar.hidden = false;
+    if (idxEl) idxEl.textContent = String(boss.idx);
+    if (nameEl) nameEl.textContent = boss.name;
+
+    const i = data.bosses.findIndex((b) => b.id === id);
+    const prevBtn = document.getElementById("h10Prev");
+    const nextBtn = document.getElementById("h10Next");
+    if (prevBtn) prevBtn.disabled = i <= 0;
+    if (nextBtn) nextBtn.disabled = i < 0 || i >= data.bosses.length - 1;
+
+    if (updateHash) {
+      history.replaceState(null, "", `#${cardId(id)}`);
+    }
+  }
+
+  function scrollToBoss(id) {
+    const el = document.getElementById(cardId(id));
+    if (!el) return;
+    setActiveBoss(id, { updateHash: true });
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function syncHeaderOffset() {
+    const header = document.querySelector(".site-header");
+    if (!header) return;
+    const h = Math.ceil(header.getBoundingClientRect().height);
+    document.documentElement.style.setProperty("--site-header-h", `${h}px`);
+  }
+
+  function bindReadingBar() {
+    const prevBtn = document.getElementById("h10Prev");
+    const nextBtn = document.getElementById("h10Next");
+    const getActiveId = () => {
+      const active = navRoot.querySelector(".brief-nav-link.is-active");
+      return active && active.getAttribute("data-boss-id");
+    };
+    if (prevBtn) {
+      prevBtn.addEventListener("click", () => {
+        const id = getActiveId();
+        const i = data.bosses.findIndex((b) => b.id === id);
+        if (i > 0) scrollToBoss(data.bosses[i - 1].id);
+      });
+    }
+    if (nextBtn) {
+      nextBtn.addEventListener("click", () => {
+        const id = getActiveId();
+        const i = data.bosses.findIndex((b) => b.id === id);
+        if (i >= 0 && i < data.bosses.length - 1) {
+          scrollToBoss(data.bosses[i + 1].id);
+        }
+      });
+    }
+    syncHeaderOffset();
+    window.addEventListener("resize", syncHeaderOffset);
+    if ("ResizeObserver" in window) {
+      const header = document.querySelector(".site-header");
+      if (header) new ResizeObserver(syncHeaderOffset).observe(header);
+    }
+  }
+
+  function observeActiveBoss() {
+    const cards = [...listRoot.querySelectorAll(".brief-card[id^='boss-']")];
+    if (!cards.length || !("IntersectionObserver" in window)) {
+      if (data.bosses[0]) setActiveBoss(data.bosses[0].id);
+      return;
+    }
+
+    const visible = new Map();
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          visible.set(entry.target.id, entry.intersectionRatio);
+        });
+        let bestId = null;
+        let bestRatio = 0;
+        visible.forEach((ratio, id) => {
+          if (ratio > bestRatio) {
+            bestRatio = ratio;
+            bestId = id;
+          }
+        });
+        if (!bestId || bestRatio <= 0) return;
+        const bossId = bestId.replace(/^boss-/, "");
+        setActiveBoss(bossId);
+      },
+      {
+        root: null,
+        rootMargin: "-20% 0px -55% 0px",
+        threshold: [0, 0.1, 0.25, 0.5, 0.75, 1],
+      }
+    );
+    cards.forEach((card) => io.observe(card));
   }
 
   function renderLegacy(b) {
@@ -154,7 +266,7 @@
     const tacticsFlow = flowBrief(b.flow);
     return `
   <p class="brief-pull"><strong>一句话：</strong>${b.oneLiner || ""}</p>
-  <p class="brief-legacy-note">本 Boss 仍为旧结构；将按「技能→站位→减伤→流程→职责」模板陆续升级（1–4 号已完成）。</p>
+  <p class="brief-legacy-note">本 Boss 仍为旧结构；将按「技能→站位→减伤→流程→职责」模板陆续升级（1–14 号已完成）。</p>
 
   <section class="brief-block">
     <h4>开打前编制</h4>
@@ -292,10 +404,22 @@
 
   renderNav();
   renderCards();
+  bindReadingBar();
+  observeActiveBoss();
+
+  navRoot.addEventListener("click", (e) => {
+    const link = e.target.closest("a.brief-nav-link");
+    if (!link) return;
+    const id = link.getAttribute("data-boss-id");
+    if (!id) return;
+    e.preventDefault();
+    scrollToBoss(id);
+  });
 
   const hash = (location.hash || "").match(/^#(?:boss-|brief-h10-)?([a-z0-9-]+)$/i);
-  if (hash) {
-    const el = document.getElementById(cardId(hash[1]));
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (hash && bossById(hash[1])) {
+    requestAnimationFrame(() => scrollToBoss(hash[1]));
+  } else if (data.bosses[0]) {
+    setActiveBoss(data.bosses[0].id);
   }
 })();

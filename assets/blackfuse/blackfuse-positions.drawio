@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="wowsoo" version="22.1.0" type="device">
+  <diagram id="blackfuse-p1" name="1-传送带">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c0_10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_11" value="攻城匠师黑索 — 传送带" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=26;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_12" value="约 40 秒一波 · 地雷&gt;导弹 · 静电打伐木机 · 35 码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_13" value="⚠ 漏一件进充能矩阵 ≈ −90% 伤害近似灭团" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_14" value="&lt;b&gt;【要点】&lt;/b&gt;&#xa;&nbsp;&#xa;开场嗜血&#xa;&nbsp;&#xa;轮班上带&#xa;&nbsp;&#xa;优先拆地雷&#xa;&nbsp;&#xa;其次导弹&#xa;&nbsp;&#xa;静电层叠伐木机&#xa;&nbsp;&#xa;两机约 35 码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_15" value="&lt;b&gt;【注意】&lt;/b&gt;&#xa;&nbsp;&#xa;拆带宁多勿少&#xa;&nbsp;&#xa;静电层=击杀速度关键" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=16;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="690" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_16" value="&lt;b&gt;拆解优先&lt;/b&gt;&#xa;&nbsp;&#xa;地雷 → 导弹 → 其余" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_17" value="&lt;b&gt;静电充能&lt;/b&gt;&#xa;&nbsp;&#xa;对伐木机约 +400%/层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#38BDF8;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_18" value="&lt;b&gt;伐木机间距&lt;/b&gt;&#xa;&nbsp;&#xa;两机保持约 35 码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="320" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_19" value="&lt;b&gt;充能矩阵&lt;/b&gt;&#xa;&nbsp;&#xa;漏件→团队伤害 −90%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#450A0A;strokeColor=#EF4444;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="320" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_20" value="认过载图案 — 磁铁波最难" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=middle;spacing=12;fontColor=#BBF7D0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="730" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="blackfuse-p2" name="2-过载">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1_10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_11" value="攻城匠师黑索 — 过载循环" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=26;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_12" value="认图案 · 磁铁加人手 · 躲锯刃 · 严禁漏件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_13" value="⚠ 磁铁波人手不足或锯刃扫团易灭" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_14" value="&lt;b&gt;【要点】&lt;/b&gt;&#xa;&nbsp;&#xa;约 40 秒一波&#xa;&nbsp;&#xa;认过载图案&#xa;&nbsp;&#xa;磁铁预留位移与 DPS&#xa;&nbsp;&#xa;锯刃躲/假死&#xa;&nbsp;&#xa;零漏件进矩阵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_15" value="&lt;b&gt;磁铁波&lt;/b&gt;&#xa;&nbsp;&#xa;最难；加人手支援" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_16" value="&lt;b&gt;锯刃&lt;/b&gt;&#xa;&nbsp;&#xa;躲避或猎人假死预排" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7C2D12;strokeColor=#FB923C;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_17" value="约 12% → 停带全员烧 Boss" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=middle;spacing=12;fontColor=#BBF7D0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="730" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="blackfuse-p3" name="3-斩杀">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2_10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_11" value="攻城匠师黑索 — 停带斩杀" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=26;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_12" value="约 12% 停止上带 · 全力打 Boss" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_13" value="⚠ 12% 仍派人上带会拖死斩杀" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_14" value="&lt;b&gt;【要点】&lt;/b&gt;&#xa;&nbsp;&#xa;听停带信号&#xa;&nbsp;&#xa;全员下带&#xa;&nbsp;&#xa;集火 Boss&#xa;&nbsp;&#xa;收尾保活" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_15" value="&lt;b&gt;红线&lt;/b&gt;&#xa;&nbsp;&#xa;漏矩阵 / 错优先 / 伐木机贴脸 / 12%仍上带" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#450A0A;strokeColor=#EF4444;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_16" value="&lt;b&gt;目标&lt;/b&gt;&#xa;&nbsp;&#xa;零漏件推进至停带斩杀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_17" value="编制建议：2 坦 · 2 奶 · 6 DPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=middle;spacing=12;fontColor=#BBF7D0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="730" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

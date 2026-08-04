@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="wowsoo" version="22.1.0" type="device">
+  <diagram id="malkorok-p1" name="1-P1">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c0_10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_11" value="马尔考罗克 — P1 站位" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=26;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_12" value="约 2:20 · 踩内爆 · 斩后出吐息 · 瘴气按吸收抬" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_13" value="⚠ 吐息是弧形斩后续，看成一套；内爆空炸可灭" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_14" value="&lt;b&gt;【要点】&lt;/b&gt;&#xa;&nbsp;&#xa;开场嗜血&#xa;&nbsp;&#xa;内爆虚空必须踩&#xa;&nbsp;&#xa;弧形斩后立刻出吐息&#xa;&nbsp;&#xa;免疫清精华球&#xa;&nbsp;&#xa;猛击出腐蚀速清&#xa;&nbsp;&#xa;假血按盾/吸收抬" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_15" value="&lt;b&gt;【注意】&lt;/b&gt;&#xa;&nbsp;&#xa;吐息=斩后通道&#xa;&nbsp;&#xa;第一轮最弱吃满嗜血" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=16;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="690" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_16" value="&lt;b&gt;内爆能量&lt;/b&gt;&#xa;&nbsp;&#xa;虚空必须有人踩，否则爆炸" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#450A0A;strokeColor=#EF4444;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_17" value="&lt;b&gt;亚煞极之息&lt;/b&gt;&#xa;&nbsp;&#xa;弧形斩后通道致死，全体离开" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_18" value="&lt;b&gt;精华球&lt;/b&gt;&#xa;&nbsp;&#xa;免疫职业清除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#38BDF8;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="320" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_19" value="&lt;b&gt;活体腐蚀&lt;/b&gt;&#xa;&nbsp;&#xa;猛击产生，尽快击杀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7C2D12;strokeColor=#FB923C;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="320" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c0_20" value="P1 结束 → P2 酒仙独坦血怒" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=middle;spacing=12;fontColor=#BBF7D0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="730" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="malkorok-p2" name="2-P2">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1_10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_11" value="马尔考罗克 — P2 血怒" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=26;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_12" value="约 20 秒 · 酒仙独坦 · 错位能量速驱" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_13" value="⚠ P2 只有约 20 秒，漏驱会爆炸；非酒仙勿硬抗" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_14" value="&lt;b&gt;【要点】&lt;/b&gt;&#xa;&nbsp;&#xa;酒仙独坦就绪&#xa;&nbsp;&#xa;血怒约 20 秒&#xa;&nbsp;&#xa;错位能量定身速驱&#xa;&nbsp;&#xa;防爆炸优先于输出&#xa;&nbsp;&#xa;结束伤害 +25%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_15" value="&lt;b&gt;【注意】&lt;/b&gt;&#xa;&nbsp;&#xa;驱散手要热&#xa;&nbsp;&#xa;独坦自保减伤" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=16;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="690" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_16" value="&lt;b&gt;血怒&lt;/b&gt;&#xa;&nbsp;&#xa;酒仙可独坦约 20 秒" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_17" value="&lt;b&gt;错位能量&lt;/b&gt;&#xa;&nbsp;&#xa;定身玩家，不驱则爆炸" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c1_18" value="P2 结束 → 回 P1，全团伤害 +25%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=middle;spacing=12;fontColor=#BBF7D0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="730" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="malkorok-p3" name="3-循环">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2_10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_11" value="马尔考罗克 — 轮次循环" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=26;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_12" value="P1↔P2 · 每轮 +25% · 约 6 分钟狂暴" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_13" value="⚠ 第三轮起减伤表必须升级；拖到狂暴即败" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_14" value="&lt;b&gt;【要点】&lt;/b&gt;&#xa;&nbsp;&#xa;~2:20 进 P2&#xa;&nbsp;&#xa;~2:40 回 P1 +25%&#xa;&nbsp;&#xa;第三轮起升级减伤&#xa;&nbsp;&#xa;6:00 前击杀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="340" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_15" value="&lt;b&gt;红线&lt;/b&gt;&#xa;&nbsp;&#xa;空炸 / 吐息站人 / 漏驱 / 非酒仙扛 P2 / 狂暴" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#450A0A;strokeColor=#EF4444;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_16" value="&lt;b&gt;目标&lt;/b&gt;&#xa;&nbsp;&#xa;循环稳定，伤害递增前收尾" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c2_17" value="编制建议：2 坦（P2 酒仙）· 2 奶 · 6 DPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=middle;spacing=12;fontColor=#BBF7D0;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="730" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

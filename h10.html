@@ -32,9 +32,23 @@
     <section class="section brief-hero">
       <div class="section-head">
         <h2 id="h10Title">10 人英雄攻略</h2>
-        <p id="h10Lead">开打前讲解：技能/机制（含伤害类型）→ 分阶段站位（含站位图）→ 减伤循环 → 打法流程 → 坦/DPS/治疗注意。1–4 号已按新模板；其余陆续升级。</p>
+        <p id="h10Lead">开打前讲解：技能/机制（含伤害类型）→ 分阶段站位（含站位图）→ 减伤循环 → 打法流程 → 坦/DPS/治疗注意。1–14 号已全部按新模板完成。</p>
         <p class="h10-roster" id="h10Roster"></p>
       </div>
+
+      <div class="h10-reading-bar" id="h10ReadingBar" hidden>
+        <div class="h10-now" aria-live="polite">
+          <span class="h10-now-label">当前</span>
+          <span class="h10-now-idx" id="h10NowIdx">—</span>
+          <strong class="h10-now-name" id="h10NowName">滑动选择 Boss</strong>
+        </div>
+        <div class="h10-now-actions">
+          <button type="button" class="h10-now-btn" id="h10Prev" aria-label="上一个 Boss">上一只</button>
+          <button type="button" class="h10-now-btn" id="h10Next" aria-label="下一个 Boss">下一只</button>
+          <a class="h10-now-btn h10-now-toc" href="#h10Nav">目录</a>
+        </div>
+      </div>
+
       <div class="brief-layout">
         <aside class="brief-nav" id="h10Nav" aria-label="Boss 列表"></aside>
         <div class="brief-list" id="h10List"></div>

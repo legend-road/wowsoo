@@ -1331,16 +1331,108 @@ a:hover { color: #ffd09a; }
   letter-spacing: 0.06em;
 }
 
-@media (max-width: 960px) {
-  .h10-layout { grid-template-columns: 1fr; }
-  .h10-nav {
-    position: static;
-    max-height: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.brief-nav-link.is-active,
+.brief-nav-link[aria-current="true"] {
+  color: var(--ink);
+  background: rgba(232, 93, 42, 0.14);
+  border-color: rgba(232, 93, 42, 0.45);
+}
+.brief-nav-link.is-active .brief-nav-idx,
+.brief-nav-link[aria-current="true"] .brief-nav-idx {
+  color: var(--accent);
+}
+
+/* 10H 当前 Boss 吸顶条（小屏为主） */
+.h10-reading-bar {
+  display: none;
+  position: sticky;
+  top: var(--site-header-h, 4.5rem);
+  z-index: 35;
+  margin: 0 0 1rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(18, 9, 4, 0.92);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow);
+  gap: 0.65rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.h10-reading-bar:not([hidden]) {
+  display: flex;
+}
+.h10-now {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+.h10-now-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.h10-now-idx {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--accent);
+  line-height: 1;
+  flex-shrink: 0;
+}
+.h10-now-name {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--accent-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.h10-now-actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+.h10-now-btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.28);
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.h10-now-btn:hover:not(:disabled) {
+  border-color: rgba(232, 93, 42, 0.45);
+  color: var(--accent-2);
+}
+.h10-now-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+a.h10-now-toc {
+  display: inline-flex;
+  align-items: center;
+}
+.h10-page .brief-card {
+  scroll-margin-top: calc(var(--site-header-h, 4.5rem) + 4.25rem);
+}
+.h10-page .brief-nav {
+  scroll-margin-top: calc(var(--site-header-h, 4.5rem) + 1rem);
+}
+
+@media (min-width: 961px) {
+  .h10-page .brief-nav {
+    top: calc(var(--site-header-h, 4.5rem) + 0.75rem);
+    max-height: calc(100vh - var(--site-header-h, 4.5rem) - 1.5rem);
   }
-  .h10-skill-grid,
-  .h10-roles { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 960px) {
@@ -1355,6 +1447,29 @@ a:hover { color: #ffd09a; }
   .brief-skill-grid { grid-template-columns: 1fr; }
   .brief-span-2 { grid-column: auto; }
   .brief-roles { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .h10-now-actions {
+    width: 100%;
+  }
+  .h10-now-btn {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 960px) {
+  .h10-layout { grid-template-columns: 1fr; }
+  .h10-nav {
+    position: static;
+    max-height: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .h10-skill-grid,
+  .h10-roles { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 960px) {

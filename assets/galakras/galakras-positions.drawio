@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="wowsoo" version="22.1.0" type="device">
+  <diagram id="gpage1" name="1-P1地面">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="迦拉卡斯 — P1 地面站位" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="木栏间拉怪 · 略散开躲始祖龙轰炸 · 远程盯塔楼步兵保爆破专家" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="⚠ 重要友方 NPC 死亡即灭团；爆破专家死会重生但拖约 1 分钟节奏" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="峡谷（小怪出口）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F2937;strokeColor=#6B7280;fontColor=#9CA3AF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="520" y="150" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="木栏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#78350F;strokeColor=#F59E0B;fontColor=#FDE68A;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="430" y="240" width="20" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="木栏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#78350F;strokeColor=#F59E0B;fontColor=#FDE68A;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="790" y="240" width="20" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="拉怪区" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=35;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="480" y="280" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="主T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="320" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="副T" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="630" y="330" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="近" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="545" y="400" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="近" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2563EB;strokeColor=#BFDBFE;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="605" y="400" width="46" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="治疗" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="540" y="470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="治疗" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#BBF7D0;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="600" y="470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="远" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="500" y="540" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="远" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="560" y="540" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="远·盯步兵" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="640" y="540" width="70" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="友方 NPC&#xa;爆破专家" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#38BDF8;strokeWidth=2;fontColor=#BAE6FD;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="左塔（南）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#94A3B8;fontColor=#E2E8F0;fontSize=15;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="300" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="右塔（北）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#94A3B8;fontColor=#E2E8F0;fontSize=15;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="300" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="&lt;b&gt;【地面要点】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 木栏之间拉怪，别冲太深峡谷&#xa;&nbsp;&#xa;2. 开场略散开约 5 码躲龙轰炸&#xa;&nbsp;&#xa;3. 指定 2 远程秒塔楼步兵&#xa;&nbsp;&#xa;4. 优先级：碎骨 &gt; 萨满 &gt; 掌旗&#xa;&nbsp;&#xa;5. 旗帜 1 血秒拆；图腾约 5 万点名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=18;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="150" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="&lt;b&gt;【塔楼步兵】&lt;/b&gt;&#xa;&nbsp;&#xa;约每分钟刷新&#xa;&nbsp;&#xa;前 3 次偏左塔&#xa;&nbsp;&#xa;之后偏右塔&#xa;&nbsp;&#xa;约 600 万血，专杀专家" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=18;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="550" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="&lt;b&gt;【红线】&lt;/b&gt;&#xa;&nbsp;&#xa;漏控骨折冲 NPC&#xa;&nbsp;&#xa;漏断治疗链&#xa;&nbsp;&#xa;旗帜/图腾不管" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#450A0A;strokeColor=#EF4444;align=left;verticalAlign=top;spacing=18;fontColor=#FECACA;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="920" y="420" width="280" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gpage2" name="2-攻塔">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="迦拉卡斯 — P1 攻塔流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="先左后右 · 专家破门约 90 秒 · 塔队：1 坦 + 1 奶 + 2~3 DPS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="⚠ 塔上正面技能会把人打下塔；库格鲁克三连弧形斩 / 达格瑞恩锁定方向连射" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="① 爆破专家&#xa;破左门" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#38BDF8;strokeWidth=2;fontColor=#BAE6FD;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="② 打攻城车&#xa;再上塔" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7C2D12;strokeColor=#FB923C;strokeWidth=2;fontColor=#FFEDD5;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="③ 左塔&#xa;库格鲁克" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="④ 左炮坦克&#xa;打始祖龙" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;strokeWidth=2;fontColor=#FEE2E2;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="⑤ 破右门&#xa;上右塔" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=#38BDF8;strokeWidth=2;fontColor=#BAE6FD;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="⑥ 右塔&#xa;达格瑞恩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="⑦ 双炮齐射&#xa;拉下迦拉卡斯" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;strokeWidth=3;fontColor=#BBF7D0;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="340" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;b&gt;【塔队】&lt;/b&gt;&#xa;&nbsp;&#xa;建议：1 坦 + 1 奶 + 2~3 DPS&#xa;&nbsp;&#xa;点绳子快速上塔（别只爬坡）&#xa;&nbsp;&#xa;小怪一并带上塔清掉&#xa;&nbsp;&#xa;左塔清完：坦克坐左炮打龙&#xa;&nbsp;&#xa;右塔清完：一人留右炮&#xa;&nbsp;&#xa;另一人回左炮 → 双人齐射" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="460" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;b&gt;【塔上技能】&lt;/b&gt;&#xa;&nbsp;&#xa;库格鲁克：跑到平台中心&#xa;&nbsp;&#xa;连续 3 次弧形斩击退下塔&#xa;&nbsp;&#xa;雷霆一击叠减速（群体驱有用）&#xa;&nbsp;&#xa;&#xa;&nbsp;&#xa;达格瑞恩：地面提示锁定方向&#xa;&nbsp;&#xa;短间隔连射击退+伤害&#xa;&nbsp;&#xa;躲开正面锥形" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=16;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="450" y="460" width="360" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;【落龙时机】&lt;/b&gt;&#xa;&nbsp;&#xa;当前波清完&#xa;&nbsp;&#xa;或下一波来前&#xa;&nbsp;&#xa;别带一堆小怪进 P2&#xa;&nbsp;&#xa;波 7~8 之间窗口充足" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=top;spacing=16;fontColor=#BBF7D0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="840" y="460" width="360" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gpage3" name="3-P2两营">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="迦拉卡斯 — P2 两营分摊" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="嗜血 · 两营各约 4 人 · 坦克红点背对两营 · 火球穿营吸收" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="⚠ 被点名者先跑到本营后方，Debuff 结束再回营；勿把 P1 小怪带进 P2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="迦拉卡斯" style="ellipse;whiteSpace=wrap;html=1;fillColor=#7F1D1D;strokeColor=#FCA5A5;strokeWidth=3;fontColor=#FEE2E2;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="555" y="280" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="主T&#xa;红标" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="580" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="副T&#xa;侧面" style="ellipse;whiteSpace=wrap;html=1;fillColor=#991B1B;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="680" y="250" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="A 营（蓝）约 4 人" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E3A5F;fillOpacity=50;strokeColor=#38BDF8;strokeWidth=3;fontColor=#BAE6FD;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="480" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="B 营（绿）约 4 人" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=50;strokeColor=#22C55E;strokeWidth=3;fontColor=#86EFAC;fontSize=16;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="480" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="火球飞行路径" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#F97316;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="390" as="sourcePoint" />
+            <mxPoint x="470" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="火球飞行路径" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#F97316;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="390" as="sourcePoint" />
+            <mxPoint x="750" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="点名站后方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="400" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="点名站后方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="700" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;b&gt;【火球流程】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 有人被「迦拉克隆之焰」点名&#xa;&nbsp;&#xa;2. 跑到本营后方等 5 秒 Debuff 结束&#xa;&nbsp;&#xa;3. 火球从 Boss 前飞向该位置&#xa;&nbsp;&#xa;4. 穿过本营被多人吸收减伤&#xa;&nbsp;&#xa;5. 触球者叠 DoT；两营轮流降层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=16;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="300" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="&lt;b&gt;【换坦】&lt;/b&gt;&#xa;&nbsp;&#xa;火球从 Boss 正前出现&#xa;&nbsp;&#xa;当前坦必吃一层&#xa;&nbsp;&#xa;约 3 层嘲讽换坦&#xa;&nbsp;&#xa;副坦站侧面勿穿球" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#450A0A;strokeColor=#EF4444;align=left;verticalAlign=top;spacing=16;fontColor=#FECACA;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="560" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="&lt;b&gt;【治疗】&lt;/b&gt;&#xa;&nbsp;&#xa;每秒团伤递增加&#xa;&nbsp;&#xa;约 4 万起，拖久可到 8 万级&#xa;&nbsp;&#xa;两营都要有奶&#xa;&nbsp;&#xa;P2 带满蓝 + 团减" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=top;spacing=16;fontColor=#BBF7D0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="920" y="200" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="&lt;b&gt;【层数过高】&lt;/b&gt;&#xa;&nbsp;&#xa;同营连吃多层时&#xa;&nbsp;&#xa;下次点名可把球&#xa;&nbsp;&#xa;放到另一营后方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=16;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="920" y="530" width="280" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gpage4" name="4-波次轴">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="迦拉卡斯 — P1 波次与攻塔时间轴" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#F8FAFC;fontSize=28;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="16" width="1000" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="波次固定计时无法加速 · 专家破门约 90 秒/塔 · 目标：双炮齐射前清完当前波" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;fontColor=#94A3B8;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="⚠ 专家反复死亡会拖出第 8 波甚至更多，整场显著变长" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontColor=#FBBF24;fontSize=19;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="96" width="1100" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;【关键节点】&lt;/b&gt;&#xa;&nbsp;&#xa;0:02  波1（双碎骨，注意骨折）&#xa;&nbsp;&#xa;0:58  波2（萨满+旗帜）&#xa;&nbsp;&#xa;~1:50 蛇女库格拉（地面小 Boss）&#xa;&nbsp;&#xa;~2:17 攻城车 → 上左塔库格鲁克&#xa;&nbsp;&#xa;~2:44 始祖龙着陆波&#xa;&nbsp;&#xa;~3:40 波4（索拉诺克）&#xa;&nbsp;&#xa;~5:14 攻城车 → 上右塔达格瑞恩&#xa;&nbsp;&#xa;~6:25~7:20 清波 / 双龙&#xa;&nbsp;&#xa;波7后窗口：双炮落龙进 P2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#64748B;align=left;verticalAlign=top;spacing=14;fontColor=#F1F5F9;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="560" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;【击杀优先级】&lt;/b&gt;&#xa;&nbsp;&#xa;1. 碎骨者（骨折必晕/拉）&#xa;&nbsp;&#xa;2. 潮汐萨满（断链+图腾）&#xa;&nbsp;&#xa;3. 掌旗者（拆旗）&#xa;&nbsp;&#xa;4. 其余杂兵&#xa;&nbsp;&#xa;&#xa;&nbsp;&#xa;旗帜：1 血，AOE 无效&#xa;&nbsp;&#xa;治疗图腾：约 5 万，AOE 无效" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;align=left;verticalAlign=top;spacing=16;fontColor=#FDE68A;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;b&gt;【P2】&lt;/b&gt;&#xa;&nbsp;&#xa;双炮齐射 → 嗜血爆发&#xa;&nbsp;&#xa;两营分摊火球至击杀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;strokeColor=#22C55E;align=left;verticalAlign=top;spacing=16;fontColor=#BBF7D0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="640" y="550" width="540" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
