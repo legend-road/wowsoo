@@ -1540,3 +1540,183 @@ a.h10-now-toc {
   .quiz-actions { justify-content: stretch; }
   .quiz-actions .btn { flex: 1; }
 }
+
+
+/* —— 10H 减伤与抬血速查 —— */
+.h10-cds-link {
+  margin: 0.55rem 0 0;
+  font-size: 0.95rem;
+}
+.h10-cds-link a {
+  color: var(--accent-2);
+  font-weight: 600;
+}
+.cds-page .h10-roster {
+  margin: 0.5rem 0 0;
+  color: var(--accent-2);
+  font-size: 0.95rem;
+}
+.cds-comp-grid,
+.cds-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+.cds-comp,
+.cds-card {
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.cds-comp h5,
+.cds-card h5 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+  color: var(--accent-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: baseline;
+}
+.cds-comp h5 span,
+.cds-card h5 span {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.cds-comp-heals {
+  margin: 0 0 0.35rem;
+  color: var(--heal);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.cds-comp p,
+.cds-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.cds-effect {
+  margin: 0 0 0.3rem !important;
+  color: var(--ink) !important;
+  font-size: 0.88rem !important;
+}
+.cds-card--dr {
+  border-color: rgba(74, 144, 217, 0.35);
+  background: linear-gradient(135deg, rgba(74, 144, 217, 0.1), rgba(0, 0, 0, 0.2));
+}
+.cds-card--heal {
+  border-color: rgba(95, 191, 122, 0.35);
+  background: linear-gradient(135deg, rgba(95, 191, 122, 0.1), rgba(0, 0, 0, 0.2));
+}
+.cds-card--ext {
+  border-color: rgba(201, 160, 106, 0.35);
+}
+.cds-boss-head {
+  margin: 1.25rem 0 0.65rem;
+  padding: 0 0.15rem;
+}
+.cds-boss-head h3 {
+  margin: 0 0 0.25rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--accent-2);
+}
+.cds-boss-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.cds-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.cds-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.cds-table th,
+.cds-table td {
+  padding: 0.55rem 0.65rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.45;
+}
+.cds-table thead th {
+  color: var(--bronze);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.cds-table tbody th {
+  color: var(--ink);
+  font-weight: 600;
+  min-width: 8rem;
+}
+.cds-table td {
+  color: var(--muted);
+}
+.cds-tag {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.05rem 0.32rem;
+  border-radius: 3px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+}
+.cds-tag-dr {
+  color: #0d1a28;
+  background: #6aa3e0;
+}
+.cds-tag-heal {
+  color: #0d1a12;
+  background: #6fd08a;
+}
+
+@media (max-width: 900px) {
+  .cds-comp-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .cds-table thead {
+    display: none;
+  }
+  .cds-table,
+  .cds-table tbody,
+  .cds-table tr,
+  .cds-table th,
+  .cds-table td {
+    display: block;
+    width: 100%;
+  }
+  .cds-table tr {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .cds-table tbody th {
+    padding-bottom: 0.25rem;
+    border-bottom: none;
+  }
+  .cds-table td {
+    border-bottom: none;
+    padding: 0.2rem 0.65rem;
+  }
+  .cds-table td::before {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--bronze);
+    margin-bottom: 0.1rem;
+  }
+  .cds-table td:nth-child(2)::before { content: "团减 / 外置"; }
+  .cds-table td:nth-child(3)::before { content: "抬血"; }
+  .cds-table td:nth-child(4)::before { content: "备注"; }
+}

@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SOO 战前安排 | 围攻奥格瑞玛</title>
+  <title>SOO 10H 减伤与抬血 | 围攻奥格瑞玛</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="brief-page">
+<body class="brief-page brief-h10-page cds-page">
   <div class="bg-embers" aria-hidden="true"></div>
 
   <header class="site-header">
@@ -23,8 +23,8 @@
     <nav class="top-nav" aria-label="主导航">
       <a href="index.html">攻略主页</a>
       <a href="h10.html">10H</a>
-      <a href="cds.html">减伤表</a>
-      <a href="brief.html" aria-current="page">战前安排</a>
+      <a href="cds.html" aria-current="page">减伤表</a>
+      <a href="brief.html">战前安排</a>
       <a href="quiz.html">测验</a>
     </nav>
   </header>
@@ -32,22 +32,28 @@
   <main>
     <section class="section brief-hero">
       <div class="section-head">
-        <h2>团长战前安排</h2>
-        <p>英雄难度开打前清单：人员分工、站位、时间轴、喊话与红线。按 Boss 点左侧快速跳转；细节机制仍以攻略页为准。</p>
+        <h2 id="cdsTitle">10H 减伤与抬血</h2>
+        <p id="cdsLead"></p>
+        <p class="h10-roster" id="cdsRoster"></p>
       </div>
+
       <div class="brief-layout">
-        <aside class="brief-nav" id="briefNav" aria-label="Boss 列表"></aside>
-        <div class="brief-list" id="briefList"></div>
+        <aside class="brief-nav" id="cdsNav" aria-label="减伤表目录"></aside>
+        <div class="brief-list" id="cdsList"></div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p><a href="index.html">返回攻略</a> · <a href="h10.html">10H</a> · <a href="cds.html">减伤表</a> · <a href="quiz.html">职责测验</a> · 战前安排以英雄为准</p>
+    <p>
+      <a href="index.html">返回攻略</a> ·
+      <a href="h10.html">10H 攻略</a> ·
+      <a href="brief.html">通用战前</a> ·
+      减伤与抬血速查
+    </p>
   </footer>
 
-  <script src="data.js"></script>
-  <script src="brief-data.js"></script>
-  <script src="brief.js"></script>
+  <script src="cds-data.js"></script>
+  <script src="cds.js"></script>
 </body>
 </html>
