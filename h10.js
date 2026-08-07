@@ -27,14 +27,31 @@
 
   function skillCards(skills) {
     return (skills || [])
-      .map(
-        (s) => `
-      <div class="brief-skill">
-        <h5>${s.name}<span>${s.who || ""}</span></h5>
+      .map((s) => {
+        const hClass = s.heroic
+          ? s.heroic === "diff"
+            ? " is-h-diff"
+            : " is-h-only"
+          : "";
+        return `
+      <div class="brief-skill${hClass}">
+        <h5>${heroicBadge(s.heroic)}${s.name}${
+          s.who ? `<span>${s.who}</span>` : ""
+        }</h5>
         <p>${s.detail || ""}</p>
-      </div>`
-      )
+      </div>`;
+      })
       .join("");
+  }
+
+  function heroicBadge(flag) {
+    if (flag === true || flag === "only") {
+      return `<abbr class="brief-h-badge brief-h-only" title="仅英雄难度出现">H特有</abbr>`;
+    }
+    if (flag === "diff") {
+      return `<abbr class="brief-h-badge brief-h-diff" title="普通也有，但英雄难度机制/数值显著不同">H加强</abbr>`;
+    }
+    return "";
   }
 
   function mechanicCards(mechanics) {
@@ -45,9 +62,16 @@
           s.dmg && s.dmg !== "—"
             ? `<p class="brief-dmg"><span>伤害</span>${s.dmg}</p>`
             : "";
+        const hClass = s.heroic
+          ? s.heroic === "diff"
+            ? " is-h-diff"
+            : " is-h-only"
+          : "";
         return `
-      <div class="brief-skill">
-        <h5>${s.name}<span>${meta}</span></h5>
+      <div class="brief-skill${hClass}">
+        <h5>${heroicBadge(s.heroic)}${s.name}${
+          meta ? `<span>${meta}</span>` : ""
+        }</h5>
         ${dmg}
         <p>${s.detail || ""}</p>
       </div>`;
@@ -327,6 +351,12 @@
 
   <section class="brief-block">
     <h4>② 技能与机制细讲</h4>
+    <p class="brief-h-legend">
+      <abbr class="brief-h-badge brief-h-only" title="仅英雄难度出现">H特有</abbr>
+      仅英雄难度出现的技能/机制；
+      <abbr class="brief-h-badge brief-h-diff" title="普通也有，但英雄难度显著不同">H加强</abbr>
+      普通也有，但 10H 机制或数值明显加压。
+    </p>
     <div class="brief-skill-grid">${mechanicCards(br.mechanics)}</div>
   </section>
 

@@ -908,11 +908,61 @@ a:hover { color: #ffd09a; }
   grid-template-columns: 1fr 1fr;
   gap: 0.65rem;
 }
+.brief-h-legend {
+  margin: 0 0 0.75rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.brief-h-legend .brief-h-badge {
+  margin-right: 0.15rem;
+  vertical-align: middle;
+}
+.brief-h-badge {
+  display: inline-block;
+  flex-shrink: 0;
+  margin-right: 0.25rem;
+  padding: 0.08rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: help;
+}
+.brief-h-only {
+  color: #1a1208;
+  background: linear-gradient(135deg, #e8a54b, #d4782a);
+}
+.brief-h-diff {
+  color: #f4ebe0;
+  background: linear-gradient(135deg, #6b3a2a, #9a4f28);
+  border: 1px solid rgba(232, 165, 75, 0.45);
+}
 .brief-skill {
   padding: 0.65rem 0.75rem;
   border: 1px solid var(--line);
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.18);
+}
+.brief-skill.is-h-only {
+  border-color: rgba(212, 120, 42, 0.55);
+  background: linear-gradient(
+    135deg,
+    rgba(212, 120, 42, 0.12),
+    rgba(0, 0, 0, 0.18)
+  );
+}
+.brief-skill.is-h-diff {
+  border-color: rgba(154, 79, 40, 0.5);
+  background: linear-gradient(
+    135deg,
+    rgba(107, 58, 42, 0.22),
+    rgba(0, 0, 0, 0.18)
+  );
 }
 .brief-skill h5 {
   margin: 0 0 0.35rem;
