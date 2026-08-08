@@ -1720,3 +1720,11 @@ a.h10-now-toc {
   .cds-table td:nth-child(3)::before { content: "抬血"; }
   .cds-table td:nth-child(4)::before { content: "备注"; }
 }
+
+.brief-more {
+  margin: 0.85rem 0 0;
+  font-size: 0.92rem;
+}
+.brief-more a {
+  font-weight: 600;
+}

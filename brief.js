@@ -33,7 +33,7 @@
       <h3>${boss.name}</h3>
       <p class="brief-meta">${boss.en} · ${boss.zone} · 英雄</p>
     </div>
-    <a class="brief-guide-link" href="index.html#boss-${boss.id}">看攻略</a>
+    <a class="brief-guide-link" href="h10.html#boss-${boss.id}">10H 详解</a>
   </header>
 
   <p class="brief-pull"><strong>开打前：</strong>${br.pull}</p>
@@ -48,7 +48,7 @@
       <ul>${li(br.positions)}</ul>
     </section>
     <section>
-      <h4>时间轴提醒</h4>
+      <h4>时间轴 / 减伤提醒</h4>
       <ul>${li(br.timeline)}</ul>
     </section>
     <section class="brief-callouts">
@@ -61,6 +61,7 @@
     <h4>红线（易灭）</h4>
     <ul>${li(br.redlines)}</ul>
   </section>
+  <p class="brief-more"><a href="h10.html#boss-${boss.id}">查看该 Boss 10H 详解 →</a> · <a href="cds.html#cds-${boss.id}">减伤循环 →</a></p>
 </article>`;
       })
       .join("");
