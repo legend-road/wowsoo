@@ -139,6 +139,55 @@
       .join("");
   }
 
+  function tableBlocks(tables) {
+    if (!tables || !tables.length) return "";
+    return tables
+      .map((t) => {
+        // 新格式：columns + rows[][]；旧格式：rows[{th,td}]
+        const hasCols = Array.isArray(t.columns) && t.columns.length;
+        let head = "";
+        let body = "";
+        if (hasCols) {
+          head = t.columns.map((c) => `<th scope="col">${c}</th>`).join("");
+          body = (t.rows || [])
+            .map((row) => {
+              const cells = Array.isArray(row)
+                ? row
+                : t.columns.map((c) => row[c] || "");
+              const isMagnet = cells.some((c) => /电磁|磁铁/.test(String(c)));
+              return `<tr class="${isMagnet ? "is-magnet-wave" : ""}">${cells
+                .map((c, i) =>
+                  i === 0 ? `<th scope="row">${c}</th>` : `<td>${c}</td>`
+                )
+                .join("")}</tr>`;
+            })
+            .join("");
+        } else {
+          head = `<th scope="col">项</th><th scope="col">说明</th>`;
+          body = (t.rows || [])
+            .map(
+              (row) =>
+                `<tr><th scope="row">${row.th || ""}</th><td>${
+                  row.td || ""
+                }</td></tr>`
+            )
+            .join("");
+        }
+        return `
+      <div class="brief-table-block">
+        <h5>${t.title || "参考表"}</h5>
+        ${t.note ? `<p class="brief-table-note">${t.note}</p>` : ""}
+        <div class="brief-table-wrap">
+          <table class="brief-table">
+            <thead><tr>${head}</tr></thead>
+            <tbody>${body}</tbody>
+          </table>
+        </div>
+      </div>`;
+      })
+      .join("");
+  }
+
   function timelineBlock(timeline, note) {
     if (!timeline || !timeline.length) return "";
     const rows = timeline
@@ -373,6 +422,7 @@
   <section class="brief-block">
     <h4>⑤ 打法流程</h4>
     <div class="brief-flow-grid">${flowBlocks(br.flow)}</div>
+    ${tableBlocks(br.tables || b.swellingTables)}
   </section>
 
   ${timelineBlock(timeline, timelineNote)}
