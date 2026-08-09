@@ -1795,3 +1795,98 @@ a.h10-now-toc {
     font-size: 0.84rem;
   }
 }
+
+/* —— 本团战前浓缩 —— */
+.rb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.85rem;
+}
+.rb-tag {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.22);
+  color: var(--muted);
+}
+.rb-tag strong {
+  color: var(--ink);
+  margin-right: 0.2rem;
+}
+.rb-tag--tank {
+  border-color: rgba(74, 144, 217, 0.45);
+  background: rgba(74, 144, 217, 0.12);
+}
+.rb-tag--heal {
+  border-color: rgba(95, 191, 122, 0.45);
+  background: rgba(95, 191, 122, 0.12);
+}
+.rb-tag--dps {
+  border-color: rgba(217, 107, 74, 0.4);
+  background: rgba(217, 107, 74, 0.1);
+}
+.rb-pending {
+  opacity: 0.72;
+}
+
+.rb-cd-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.65rem;
+  margin: 0 0 0.85rem;
+}
+.rb-cd-slot {
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.rb-cd-slot h5 {
+  margin: 0 0 0.35rem;
+  color: var(--accent-2);
+  font-size: 0.98rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.rb-cd-num {
+  display: inline-block;
+  padding: 0.08rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #1a1208;
+  background: linear-gradient(135deg, #e8a54b, #d4782a);
+}
+.rb-cd-skills {
+  margin: 0 0 0.3rem !important;
+  color: var(--ink) !important;
+  font-size: 0.9rem !important;
+  font-weight: 600;
+}
+.rb-cd-slot p {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+@media (max-width: 900px) {
+  .rb-cd-grid { grid-template-columns: 1fr; }
+}
+
+.rb-cd-num--heal {
+  color: #0d1a12;
+  background: linear-gradient(135deg, #6fd08a, #3fa866);
+}
+.rb-cd-slot--heal {
+  border-color: rgba(95, 191, 122, 0.35);
+  background: linear-gradient(135deg, rgba(95, 191, 122, 0.1), rgba(0, 0, 0, 0.2));
+}
+.rb-cd-slot--dr {
+  border-color: rgba(74, 144, 217, 0.35);
+  background: linear-gradient(135deg, rgba(74, 144, 217, 0.1), rgba(0, 0, 0, 0.2));
+}
