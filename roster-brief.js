@@ -26,7 +26,7 @@
     const people = (r.members || [])
       .map(
         (m) =>
-          `<span class="rb-tag rb-tag--${m.role === "坦" ? "tank" : m.role === "治疗" ? "heal" : "dps"}"><strong>${m.tag}</strong> ${m.spec}</span>`
+          `<span class="rb-tag rb-tag--${m.role === "坦" ? "tank" : m.role === "治疗" ? "heal" : "dps"}"><strong>${m.tag}</strong> ${m.spec}${m.flex ? ` <em>${m.flex}</em>` : ""}</span>`
       )
       .join("");
     const order = (r.cdsOrder || [])

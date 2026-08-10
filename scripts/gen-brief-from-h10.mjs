@@ -89,7 +89,7 @@ function timeline(b) {
 
 const manualPull = {
   immerseus:
-    "半场就位 → 免疫者起手消肿胀、报 4 层停手、P2 分向、踩池、旋涡减伤 → 嗜血开场",
+    "半场就位（Boss 朝左 / 大团 6 点竖线）→ 报肿胀 4 层停手（超 4 层可免疫续消）、P2 分向、踩池、旋涡减伤 → 嗜血开场",
   protectors:
     "报绝命序洛克→何→孙 → 印记传递链 + 灾祸减伤表 → 嗜血开场",
   norushen:

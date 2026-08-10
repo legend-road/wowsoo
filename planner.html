@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>阵容分配器 | 围攻奥格瑞玛 10H</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="brief-page brief-h10-page planner-page">
+  <div class="bg-embers" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <p class="brand-kicker">Mists of Pandaria Classic</p>
+        <h1 class="brand-name">围攻奥格瑞玛</h1>
+      </div>
+    </div>
+    <nav class="top-nav" aria-label="主导航">
+      <a href="index.html">攻略主页</a>
+      <a href="h10.html">10H</a>
+      <a href="cds.html">减伤表</a>
+      <a href="brief.html">战前安排</a>
+      <a href="roster-brief.html">本团浓缩</a>
+      <a href="planner.html" aria-current="page">阵容分配</a>
+      <a href="quiz.html">测验</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section brief-hero">
+      <div class="section-head">
+        <h2>10 人阵容分配器</h2>
+        <p>填入 10 人专精与代号 → 自动生成 14 Boss 人员分工 + 特殊技能减抬时间轴。MRT 支持 <strong>10H</strong> / <strong>10PT（普通）</strong> 两套轴切换。</p>
+      </div>
+
+      <div class="planner-layout">
+        <aside class="planner-editor" aria-label="阵容编辑">
+          <div class="planner-editor-head">
+            <h3>团队阵容</h3>
+            <div class="planner-actions">
+              <button type="button" class="btn btn-ghost" id="btnReset">恢复默认</button>
+              <button type="button" class="btn btn-primary" id="btnGenerate">生成分配</button>
+            </div>
+          </div>
+          <p class="planner-hint">默认 = 本团编制。每人可设「可切治疗 / 可切防御」；特殊 Boss 自动切专精重排。改完点「生成分配」。</p>
+          <div class="planner-col-labels" aria-hidden="true">
+            <span>代号</span><span>角色名</span><span>主专精</span><span></span><span>可切治疗</span><span>可切防御</span><span></span>
+          </div>
+          <div id="rosterRows" class="planner-rows"></div>
+          <div class="planner-actions planner-actions--bottom">
+            <button type="button" class="btn btn-ghost" id="btnAdd">+ 加人</button>
+            <button type="button" class="btn btn-ghost" id="btnCopy">复制全文</button>
+            <button type="button" class="btn btn-primary" id="btnMrtAll">复制全部 MRT</button>
+            <button type="button" class="btn btn-ghost" id="btnPrint">打印/导出</button>
+          </div>
+          <div class="planner-mrt-mode" role="group" aria-label="MRT 难度模式">
+            <span class="planner-mrt-mode-label">MRT 模式</span>
+            <button type="button" class="btn btn-ghost btn-mrt-mode" data-mrt-mode="h10" id="btnMrtModeH" aria-pressed="true">10H</button>
+            <button type="button" class="btn btn-ghost btn-mrt-mode" data-mrt-mode="n10" id="btnMrtModeN" aria-pressed="false">10PT</button>
+            <button type="button" class="btn btn-primary" id="btnMrtReplaceNames" title="把当前模式 MRT 中的代号替换为角色名（Kaze 会高亮本人）">代号→角色名</button>
+          </div>
+            <p class="planner-hint">先填<strong>角色名</strong>，再点<strong>代号→角色名</strong>，会把本模式全部 MRT 里的代号换成角色名并保存（便于 MRT 高亮本人）。「恢复生成」可回到代号版。</p>
+          <p class="planner-status" id="plannerStatus" aria-live="polite"></p>
+        </aside>
+
+        <div class="brief-layout planner-result">
+          <aside class="brief-nav" id="planNav" aria-label="Boss 目录"></aside>
+          <div class="brief-list" id="planList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a href="roster-brief.html">本团浓缩</a> ·
+      <a href="cds.html">减伤表</a> ·
+      <a href="h10.html">10H 攻略</a> ·
+      按专精能力自动点名；可再手改
+    </p>
+  </footer>
+
+  <script src="planner-specs.js"></script>
+  <script src="planner-bosses.js"></script>
+  <script src="planner-engine.js"></script>
+  <script src="planner-mrt-data.js"></script>
+  <script src="planner-mrt.js"></script>
+  <script src="planner.js"></script>
+</body>
+</html>
