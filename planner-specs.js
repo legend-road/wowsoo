@@ -3,7 +3,7 @@ window.SOO_PLANNER_SPECS = {
   roles: ["坦", "治疗", "DPS"],
   specs: [
     { id: "prot_war", label: "防战", role: "坦", tags: ["tank", "melee", "rally", "demo"] },
-    { id: "prot_pal", label: "防骑", role: "坦", tags: ["tank", "melee", "bop", "sac"] },
+    { id: "prot_pal", label: "防骑", role: "坦", tags: ["tank", "melee", "bop", "sac", "aura"] },
     { id: "blood_dk", label: "血DK", role: "坦", tags: ["tank", "melee", "amz"] },
     { id: "brew_monk", label: "酒仙", role: "坦", tags: ["tank", "melee", "solo_p2"] },
     { id: "guardian", label: "熊坦", role: "坦", tags: ["tank", "melee", "solo_p2"] },
@@ -17,13 +17,13 @@ window.SOO_PLANNER_SPECS = {
 
     { id: "arms", label: "武器战", role: "DPS", tags: ["dps", "melee", "rally", "demo"] },
     { id: "fury", label: "狂暴战", role: "DPS", tags: ["dps", "melee", "rally", "demo"] },
-    { id: "ret", label: "惩戒骑", role: "DPS", tags: ["dps", "melee", "sac", "bop"] },
+    { id: "ret", label: "惩戒骑", role: "DPS", tags: ["dps", "melee", "sac", "bop", "aura"] },
     { id: "enh", label: "增强萨", role: "DPS", tags: ["dps", "melee", "interrupt"] },
     { id: "feral", label: "猫德", role: "DPS", tags: ["dps", "melee"] },
     { id: "ww_monk", label: "踏风", role: "DPS", tags: ["dps", "melee"] },
-    { id: "combat_rogue", label: "战斗盗贼", role: "DPS", tags: ["dps", "melee", "cloak", "interrupt"] },
-    { id: "ass_rogue", label: "刺杀盗贼", role: "DPS", tags: ["dps", "melee", "cloak", "interrupt"] },
-    { id: "sub_rogue", label: "敏锐盗贼", role: "DPS", tags: ["dps", "melee", "cloak", "interrupt"] },
+    { id: "combat_rogue", label: "战斗盗贼", role: "DPS", tags: ["dps", "melee", "cloak", "interrupt", "smoke"] },
+    { id: "ass_rogue", label: "刺杀盗贼", role: "DPS", tags: ["dps", "melee", "cloak", "interrupt", "smoke"] },
+    { id: "sub_rogue", label: "敏锐盗贼", role: "DPS", tags: ["dps", "melee", "cloak", "interrupt", "smoke"] },
     { id: "unholy_dk", label: "邪DK", role: "DPS", tags: ["dps", "melee", "amz"] },
     { id: "frost_dk", label: "冰DK", role: "DPS", tags: ["dps", "melee", "amz"] },
 
@@ -67,14 +67,21 @@ window.SOO_PLANNER_FLEX = {
   ],
 };
 
-/** 减伤/抬血技能优先级（有则按序点名为 1/2/3） */
+/**
+ * 减伤/抬血优先级。
+ * cover: "raid" = 不集合也能覆盖全团（光环/集结）；"stack" = 要进人/进圈
+ * multi: 同技能可点多人（如双圣骑光环掌握）
+ * preferHeal: 多人可交时优先治疗
+ */
 window.SOO_PLANNER_CD_PRIORITY = {
   dr: [
-    { tag: "barrier", skill: "真言术：障", whoRole: "heal" },
-    { tag: "link", skill: "精神链接图腾", whoRole: "heal" },
-    { tag: "aura", skill: "光环掌握（虔诚）", whoRole: "heal" },
-    { tag: "amz", skill: "反魔法领域", whoRole: "any" },
-    { tag: "demo", skill: "挫志战旗", whoRole: "any" },
+    { tag: "aura", skill: "光环掌握（虔诚）", whoRole: "any", multi: true, preferHeal: true, cover: "raid" },
+    { tag: "rally", skill: "集结呐喊", whoRole: "any", cover: "raid" },
+    { tag: "barrier", skill: "真言术：障", whoRole: "heal", cover: "stack" },
+    { tag: "link", skill: "精神链接图腾", whoRole: "heal", cover: "stack" },
+    { tag: "amz", skill: "反魔法领域", whoRole: "any", cover: "stack" },
+    { tag: "demo", skill: "挫志战旗", whoRole: "any", cover: "stack" },
+    { tag: "smoke", skill: "烟雾弹", whoRole: "any", cover: "stack" },
   ],
   heal: [
     { tag: "shell", skill: "灵魂外壳", whoRole: "heal" },
@@ -84,6 +91,5 @@ window.SOO_PLANNER_CD_PRIORITY = {
     { tag: "revival", skill: "复苏", whoRole: "heal" },
     { tag: "kings", skill: "远古列王守卫", whoRole: "heal" },
     { tag: "ascend", skill: "升腾", whoRole: "heal" },
-    { tag: "rally", skill: "集结呐喊", whoRole: "any" },
   ],
 };

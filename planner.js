@@ -73,8 +73,12 @@
       tag: m.tag,
       name: m.name || "",
       specId: m.specId,
-      flexHeal: m.flexHeal || P.defaultFlexFor(m.specId, "heal") || "",
-      flexTank: m.flexTank || P.defaultFlexFor(m.specId, "tank") || "",
+      flexHeal: Object.prototype.hasOwnProperty.call(m, "flexHeal")
+        ? m.flexHeal || ""
+        : P.defaultFlexFor(m.specId, "heal") || "",
+      flexTank: Object.prototype.hasOwnProperty.call(m, "flexTank")
+        ? m.flexTank || ""
+        : P.defaultFlexFor(m.specId, "tank") || "",
     }));
   }
 
@@ -106,7 +110,7 @@
       kind === "heal" ? s.role === "治疗" : s.role === "坦"
     );
     return (
-      `<option value="">—</option>` +
+      `<option value="">不能切</option>` +
       list
         .map(
           (s) =>
@@ -136,8 +140,12 @@
           )
           .join("");
         const role = roleOf(m.specId);
-        const flexHeal = m.flexHeal || P.defaultFlexFor(m.specId, "heal") || "";
-        const flexTank = m.flexTank || P.defaultFlexFor(m.specId, "tank") || "";
+        const flexHeal = Object.prototype.hasOwnProperty.call(m, "flexHeal")
+          ? m.flexHeal || ""
+          : P.defaultFlexFor(m.specId, "heal") || "";
+        const flexTank = Object.prototype.hasOwnProperty.call(m, "flexTank")
+          ? m.flexTank || ""
+          : P.defaultFlexFor(m.specId, "tank") || "";
         return `
 <div class="planner-row" data-i="${i}">
   <input class="planner-tag" type="text" maxlength="8" value="${escapeAttr(m.tag)}" aria-label="代号" title="代号" />
@@ -197,30 +205,25 @@
       .replace(/>/g, "&gt;");
   }
 
-  /** 代号 → 角色名（长代号优先，避免短串误伤） */
-  function replaceTagsWithNames(text, roster) {
-    const pairs = (roster || [])
-      .map((m) => ({
-        tag: String(m.tag || "").trim(),
-        name: String(m.name || "").trim(),
-      }))
-      .filter((p) => p.tag && p.name && p.tag !== p.name)
-      .sort((a, b) => b.tag.length - a.tag.length || b.name.length - a.name.length);
-    if (!pairs.length) return { text, count: 0, mapped: 0 };
-    let out = String(text || "");
-    let hits = 0;
-    for (const { tag, name } of pairs) {
-      if (!out.includes(tag)) continue;
-      const parts = out.split(tag);
-      hits += parts.length - 1;
-      out = parts.join(name);
-    }
-    return { text: out, count: hits, mapped: pairs.length };
-  }
-
   function ul(items) {
     if (!items || !items.length) return "<p class='brief-empty'>—</p>";
     return `<ul>${items.map((t) => `<li>${escapeHtml(t)}</li>`).join("")}</ul>`;
+  }
+
+  function roundGrid(rounds, opts) {
+    if (!rounds || !rounds.length) return "<p class='brief-empty'>阵容无团减/抬血技能</p>";
+    const fmt = window.SOO_PLANNER && window.SOO_PLANNER.formatRound;
+    const suffix = opts && opts.suffix !== undefined ? opts.suffix : "循环";
+    return `<div class="rb-cd-grid planner-round-grid">${rounds
+      .map((r) => {
+        const body = fmt ? fmt(r) : (r.items || []).map((i) => `${i.who}（${i.skills}）`).join(" + ");
+        return `
+      <article class="rb-cd-slot rb-cd-slot--round">
+        <h5><span class="rb-cd-num">${escapeHtml(r.slot)}</span>${escapeHtml(suffix)}</h5>
+        <p class="rb-cd-skills">${escapeHtml(body)}</p>
+      </article>`;
+      })
+      .join("")}</div>`;
   }
 
   function cdGrid(items, kind) {
@@ -275,7 +278,7 @@
     const flexCap =
       r.flexCapable && r.flexCapable.length
         ? `<p class="planner-flex-cap"><strong>弹性双修：</strong>${r.flexCapable
-            .map((f) => `${escapeHtml(f.tag)}（${escapeHtml(f.text)}）`)
+            .map((f) => `${escapeHtml(f.display || f.tag)}（${escapeHtml(f.text)}）`)
             .join(" · ")}</p>`
         : "";
 
@@ -292,9 +295,9 @@
         }
         return `<span class="rb-tag rb-tag--${
           m.role === "坦" ? "tank" : m.role === "治疗" ? "heal" : "dps"
-        }"><strong>${escapeHtml(m.tag)}</strong> ${escapeHtml(m.spec)}${
-          bits.length ? ` <em>${escapeHtml(bits.join(" "))}</em>` : ""
-        }</span>`;
+        }"><strong>${escapeHtml(m.display || m.tag)}</strong> ${escapeHtml(m.spec)}${
+          m.name && m.tag && m.name !== m.tag ? ` <em>${escapeHtml(m.tag)}</em>` : ""
+        }${bits.length ? ` <em>${escapeHtml(bits.join(" "))}</em>` : ""}</span>`;
       })
       .join("");
 
@@ -313,11 +316,9 @@
     <div class="rb-tags">${people}</div>
     ${flexCap}
     ${warn}
-    <h4>团减轮次（常态）</h4>
-    ${cdGrid(r.cdsOrder, "dr")}
-    <h4>抬血轮次（常态）</h4>
-    ${cdGrid(r.healOrder, "heal")}
-    <p class="planner-hint">特殊 Boss 若 SM 切奶 / CJQ 切防，该 Boss 卡片内会重排减抬并标注弹性编制。</p>
+    <h4>常规减伤（3 轮循环）</h4>
+    ${roundGrid(r.cdRounds)}
+    <p class="planner-hint">一轮 = 一减 + 一抬，余量技能自动补进轮次。特殊 Boss 切专精后以该 Boss 卡片为准。</p>
   </div>
 </article>`;
 
@@ -333,9 +334,26 @@
 
     const bossCards = plan.bosses
       .map((b) => {
-        const mrt = mrtById[b.id];
-        const edited = Object.prototype.hasOwnProperty.call(mrtEdits, b.id);
+        const shareText = b.shareText || (window.SOO_PLANNER.exportBossShare && window.SOO_PLANNER.exportBossShare(b)) || "";
+        const mrt = b.mrt ? mrtById[b.id] : null;
+        const edited = mrt && Object.prototype.hasOwnProperty.call(mrtEdits, b.id);
         const displayText = mrt ? getMrtText(b.id, mrt.text) : "";
+        const processList =
+          b.process && b.process.length
+            ? `<div class="brief-block brief-span-2"><h4>进程</h4>${ul(b.process)}</div>`
+            : "";
+        const shareBox = `<div class="planner-share" data-share-box="${b.id}">
+        <div class="planner-mrt-head">
+          <h4>团员粘贴稿</h4>
+          <div class="planner-mrt-actions">
+            <button type="button" class="btn btn-primary btn-share-copy" data-share="${b.id}">复制给团员</button>
+          </div>
+        </div>
+        <p class="planner-hint">可直接发 QQ / 微信。站位 / 分工 / 进程已拆开，不重复。</p>
+        <textarea class="planner-share-text" data-share-text="${b.id}" rows="12" spellcheck="false" aria-label="${escapeAttr(
+          b.name
+        )} 团员稿" readonly>${escapeHtml(shareText)}</textarea>
+      </div>`;
         const mrtPreview = mrt
           ? `<div class="planner-mrt" data-mrt-box="${b.id}">
         <div class="planner-mrt-head">
@@ -346,38 +364,47 @@
             <button type="button" class="btn btn-primary btn-mrt-copy" data-mrt="${b.id}">复制 MRT</button>
           </div>
         </div>
-        <p class="planner-hint">可直接改文本；失焦或点「保存修改」写入本机。复制/全部复制会用你改过的版本。</p>
-        <textarea class="planner-mrt-text" data-mrt-text="${b.id}" rows="14" spellcheck="false" aria-label="${escapeAttr(
+        <p class="planner-hint">本战有固定减伤时间轴。可改文本；复制会用你改过的版本。已填角色名会自动写入。</p>
+        <textarea class="planner-mrt-text" data-mrt-text="${b.id}" rows="12" spellcheck="false" aria-label="${escapeAttr(
               b.name
             )} MRT">${escapeHtml(displayText)}</textarea>
       </div>`
-          : "";
+          : `<p class="planner-hint">本战无固定减伤轴，不生成 MRT。用上方团员稿即可。</p>`;
         return `
 <article class="brief-card" id="plan-${b.id}">
   <header class="brief-card-head">
     <span class="brief-idx">${b.idx}</span>
     <div>
-      <h3>${escapeHtml(b.name)} ${flexBadge(b)}</h3>
-      <p class="brief-meta">${escapeHtml(b.note || "")} · 嗜血：${escapeHtml(b.lust)}</p>
+      <h3>${escapeHtml(b.name)} ${flexBadge(b)}${b.mrt ? ' <span class="planner-mrt-badge">MRT</span>' : ""}</h3>
+      <p class="brief-meta">${escapeHtml(b.note || "")} · 嗜血：${escapeHtml(b.lust)} · 主T ${escapeHtml(
+        (b.roles && b.roles.mt) || "?"
+      )} · 副T ${escapeHtml((b.roles && b.roles.ot) || "?")}${
+        b.roles && b.roles.t3 ? " · 三T " + escapeHtml(b.roles.t3) : ""
+      }</p>
     </div>
   </header>
   <div class="brief-card-body">
-    <p class="brief-pull">${escapeHtml(b.pull)}</p>
+    <p class="brief-pull"><strong>起手站位</strong> ${escapeHtml(b.stance || b.pull || "")}</p>
     <div class="brief-grid">
       <div class="brief-block">
         <h4>人员分工</h4>
         ${ul(b.assign)}
       </div>
       <div class="brief-block">
-        <h4>本 Boss 减抬点名</h4>
-        ${cdGrid(b.cdsOrder, "dr")}
-        ${cdGrid(b.healOrder, "heal")}
+        <h4>${escapeHtml(b.cdRoundLabel || "本 Boss 减伤（3 轮循环）")}</h4>
+        ${roundGrid(b.cdRounds, { suffix: b.cdCover === "raid" ? "全团" : "循环" })}
       </div>
-      <div class="brief-block brief-span-2">
-        <h4>特殊技能 · 减抬时间轴</h4>
+      ${processList}
+      ${
+        b.mrt && b.timeline && b.timeline.length
+          ? `<div class="brief-block brief-span-2">
+        <h4>固定减伤时间轴</h4>
         ${timelineTable(b.timeline)}
-      </div>
+      </div>`
+          : ""
+      }
     </div>
+    ${shareBox}
     ${mrtPreview}
   </div>
 </article>`;
@@ -465,6 +492,21 @@
       });
     });
 
+    listEl.querySelectorAll(".btn-share-copy").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const id = btn.getAttribute("data-share");
+        const ta = listEl.querySelector(`textarea[data-share-text="${id}"]`);
+        const boss = (lastPlan && lastPlan.bosses.find((x) => x.id === id)) || plan.bosses.find((x) => x.id === id);
+        if (!ta || !boss) return;
+        try {
+          await navigator.clipboard.writeText(ta.value);
+          setStatus(`已复制 ${boss.idx}. ${boss.name} 团员稿`);
+        } catch (_) {
+          setStatus("复制失败，请手动全选文本框");
+        }
+      });
+    });
+
     navEl.innerHTML =
       `<a class="brief-nav-link" href="#plan-roster"><span class="brief-nav-idx">编</span>阵容</a>` +
       plan.bosses
@@ -472,7 +514,7 @@
           (b) =>
             `<a class="brief-nav-link" href="#plan-${b.id}"><span class="brief-nav-idx">${b.idx}</span>${escapeHtml(
               b.name
-            )}${b.flexNotes && b.flexNotes.length ? " *" : ""}${
+            )}${b.flexNotes && b.flexNotes.length ? " *" : ""}${b.mrt ? " MRT" : ""}${
               Object.prototype.hasOwnProperty.call(mrtEdits, b.id) ? " ✎" : ""
             }</a>`
         )
@@ -486,7 +528,7 @@
     saveRoster(roster);
     lastPlan = P.generate(roster);
     renderPlan(lastPlan);
-    setStatus(`已生成 ${lastPlan.bosses.length} 个 Boss · ${lastPlan.roster.note}`);
+    setStatus(`已生成 ${lastPlan.bosses.length} 个 Boss · 3 轮减伤 · ${lastPlan.roster.note}`);
   }
 
   document.getElementById("btnGenerate").addEventListener("click", generate);
@@ -504,10 +546,10 @@
   });
   document.getElementById("btnCopy").addEventListener("click", async () => {
     if (!lastPlan) generate();
-    const text = P.exportText(lastPlan);
+    const text = P.exportShare ? P.exportShare(lastPlan) : P.exportText(lastPlan);
     try {
       await navigator.clipboard.writeText(text);
-      setStatus("已复制全文到剪贴板");
+      setStatus("已复制全部团员稿，可直接发给团员");
     } catch (_) {
       setStatus("复制失败，请用打印导出");
     }
@@ -531,7 +573,7 @@
       const text = window.SOO_MRT.exportBundle(notes);
       try {
         await navigator.clipboard.writeText(text);
-        setStatus(`已复制全部 ${notes.length} 份 ${modeShort} MRT（含已保存的修改）`);
+        setStatus(`已复制 ${notes.length} 份特殊 Boss ${modeShort} MRT（含已保存的修改）`);
       } catch (_) {
         setStatus("复制失败");
       }
@@ -549,55 +591,6 @@
       setStatus(`已切换 MRT 模式：${meta.label || id}`);
     });
   });
-
-  const btnReplaceNames = document.getElementById("btnMrtReplaceNames");
-  if (btnReplaceNames) {
-    btnReplaceNames.addEventListener("click", () => {
-      if (!lastPlan) generate();
-      if (!window.SOO_MRT) {
-        setStatus("MRT 模块未加载");
-        return;
-      }
-      const roster = readRows();
-      saveRoster(roster);
-      const named = roster.filter((m) => m.tag && m.name && m.tag !== m.name);
-      if (!named.length) {
-        setStatus("请先在「角色名」列填写至少一人的角色名");
-        return;
-      }
-      const notes = window.SOO_MRT.generateAll(lastPlan);
-      let bossTouched = 0;
-      let totalHits = 0;
-      for (const n of notes) {
-        const base = getMrtText(n.id, n.text);
-        const { text, count } = replaceTagsWithNames(base, roster);
-        if (text === base) continue;
-        setMrtText(n.id, text);
-        bossTouched += 1;
-        totalHits += count;
-        const ta = listEl.querySelector(`textarea[data-mrt-text="${n.id}"]`);
-        if (ta) {
-          ta.value = text;
-          const box = listEl.querySelector(`[data-mrt-box="${n.id}"]`);
-          const h4 = box && box.querySelector("h4");
-          if (h4 && !h4.querySelector(".planner-mrt-edited")) {
-            const modeShort =
-              (window.SOO_MRT.getModeMeta &&
-                window.SOO_MRT.getModeMeta(window.SOO_MRT.getMode()).short) ||
-              "MRT";
-            h4.innerHTML = `MRT 战术板 · ${escapeHtml(modeShort)} <span class="planner-mrt-edited">已改</span>`;
-          }
-        }
-      }
-      if (!bossTouched) {
-        setStatus(`已映射 ${named.length} 人，但当前 MRT 文本中未找到可替换的代号（可能已是角色名）`);
-        return;
-      }
-      setStatus(
-        `已将 ${named.length} 个代号→角色名写入 ${bossTouched} 份 MRT（约 ${totalHits} 处）。可直接复制；「恢复生成」可还原代号版`
-      );
-    });
-  }
 
   document.getElementById("btnPrint").addEventListener("click", () => {
     window.print();

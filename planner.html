@@ -35,7 +35,7 @@
     <section class="section brief-hero">
       <div class="section-head">
         <h2>10 人阵容分配器</h2>
-        <p>填入 10 人专精与代号 → 自动生成 14 Boss 人员分工 + 特殊技能减抬时间轴。MRT 支持 <strong>10H</strong> / <strong>10PT（普通）</strong> 两套轴切换。</p>
+        <p>按当前阵容生成 <strong>3 轮循环减伤</strong>，以及可直接发给团员的嗜血 / 站位 / 分工 / 进程。仅「有固定减伤轴」的 Boss 生成 MRT；填了角色名会自动写入。</p>
       </div>
 
       <div class="planner-layout">
@@ -47,24 +47,23 @@
               <button type="button" class="btn btn-primary" id="btnGenerate">生成分配</button>
             </div>
           </div>
-          <p class="planner-hint">默认 = 本团编制。每人可设「可切治疗 / 可切防御」；特殊 Boss 自动切专精重排。改完点「生成分配」。</p>
+          <p class="planner-hint">默认 = 本团编制。每人可设「可切治疗 / 可切防御」；特殊 Boss 自动切专精重排。改完点「生成分配」。角色名填了就会出现在团员稿和 MRT 里。</p>
           <div class="planner-col-labels" aria-hidden="true">
             <span>代号</span><span>角色名</span><span>主专精</span><span></span><span>可切治疗</span><span>可切防御</span><span></span>
           </div>
           <div id="rosterRows" class="planner-rows"></div>
           <div class="planner-actions planner-actions--bottom">
             <button type="button" class="btn btn-ghost" id="btnAdd">+ 加人</button>
-            <button type="button" class="btn btn-ghost" id="btnCopy">复制全文</button>
-            <button type="button" class="btn btn-primary" id="btnMrtAll">复制全部 MRT</button>
+            <button type="button" class="btn btn-ghost" id="btnCopy">复制全部团员稿</button>
+            <button type="button" class="btn btn-primary" id="btnMrtAll">复制特殊 Boss MRT</button>
             <button type="button" class="btn btn-ghost" id="btnPrint">打印/导出</button>
           </div>
           <div class="planner-mrt-mode" role="group" aria-label="MRT 难度模式">
             <span class="planner-mrt-mode-label">MRT 模式</span>
             <button type="button" class="btn btn-ghost btn-mrt-mode" data-mrt-mode="h10" id="btnMrtModeH" aria-pressed="true">10H</button>
             <button type="button" class="btn btn-ghost btn-mrt-mode" data-mrt-mode="n10" id="btnMrtModeN" aria-pressed="false">10PT</button>
-            <button type="button" class="btn btn-primary" id="btnMrtReplaceNames" title="把当前模式 MRT 中的代号替换为角色名（Kaze 会高亮本人）">代号→角色名</button>
           </div>
-            <p class="planner-hint">先填<strong>角色名</strong>，再点<strong>代号→角色名</strong>，会把本模式全部 MRT 里的代号换成角色名并保存（便于 MRT 高亮本人）。「恢复生成」可回到代号版。</p>
+            <p class="planner-hint">MRT 只生成有固定减伤时间轴的 Boss（伊墨 / 守护者 / 傲之煞 / 战蝎 / 马考 / 索克 / 黑索）。填了角色名会自动替换代号。</p>
           <p class="planner-status" id="plannerStatus" aria-live="polite"></p>
         </aside>
 

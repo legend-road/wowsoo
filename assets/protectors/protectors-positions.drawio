@@ -10,16 +10,16 @@
         <mxCell id="12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 开场/三人常态站位" vertex="1">
           <mxGeometry height="36" width="700" x="40" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="三人靠近 cleave · 洛克锥形背离大团 · 何开场瞬发剧毒可叠站 · 孙原地 · 嗜血开场" vertex="1">
+        <mxCell id="13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="三人靠近 cleave · 鲁克锥形背离大团 · 何开场瞬发剧毒可叠站 · 孙原地 · 嗜血开场" vertex="1">
           <mxGeometry height="28" width="780" x="40" y="56" as="geometry" />
         </mxCell>
-        <mxCell id="14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 洛克正面=复仇打击锥形危险区！远程勿挡对撞路径。绝命序：洛克→何→孙" vertex="1">
+        <mxCell id="14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 鲁克正面=复仇打击锥形危险区！远程勿挡对撞路径。绝命序：鲁克→何→孙" vertex="1">
           <mxGeometry height="28" width="780" x="40" y="88" as="geometry" />
         </mxCell>
         <mxCell id="15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
           <mxGeometry height="520" width="520" x="280" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="洛克" vertex="1">
+        <mxCell id="16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="鲁克" vertex="1">
           <mxGeometry height="70" width="70" x="430" y="300" as="geometry" />
         </mxCell>
         <mxCell id="17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="何" vertex="1">
@@ -31,7 +31,7 @@
         <mxCell id="19" parent="1" style="triangle;whiteSpace=wrap;html=1;fillColor=#7F1D1D;fillOpacity=35;strokeColor=#EF4444;strokeWidth=2;dashed=1;fontColor=#FECACA;fontSize=17;fontStyle=1;direction=west;" value="危险区 复仇打击锥形 物理" vertex="1">
           <mxGeometry height="140" width="120" x="300" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T" vertex="1">
+        <mxCell id="20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="鲁克T" vertex="1">
           <mxGeometry height="54" width="54" x="360" y="320" as="geometry" />
         </mxCell>
         <mxCell id="21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T" vertex="1">
@@ -61,10 +61,10 @@
         <mxCell id="29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EA580C;strokeColor=#FED7AA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="远程3" vertex="1">
           <mxGeometry height="48" width="48" x="475" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=25;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=17;" value="安全 cleave 堆 (洛克背后)" vertex="1">
+        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=25;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=17;" value="安全 cleave 堆 (鲁克背后)" vertex="1">
           <mxGeometry height="40" width="140" x="430" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【开场要点】 1. 三人靠近便于顺劈；嗜血开场 2. 洛克T把锥形朝外（左），仍尽量贴何/孙 3. 何开场=瞬发剧毒，可叠站；换留池后拉边 4. 孙不占坦，原地读灼烧（打断） 5. 远程勿站在洛克冲锋路径上 6. 控血留缓冲，禁双绝命" vertex="1">
+        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【开场要点】 1. 三人靠近便于顺劈；嗜血开场 2. 鲁克T把锥形朝外（左），仍尽量贴何/孙 3. 何开场=瞬发剧毒，可叠站；换留池后拉边 4. 孙不占坦，原地读灼烧（打断） 5. 远程勿站在鲁克冲锋路径上 6. 控血留缓冲，禁双绝命" vertex="1">
           <mxGeometry height="220" width="220" x="40" y="150" as="geometry" />
         </mxCell>
         <mxCell id="32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【图例】 ● 红 = 坦克 ● 蓝 = 近战 ● 橙 = 远程 ● 绿 = 治疗 ● 灰 = Boss 三角虚线 = 危险扇区" vertex="1">
@@ -79,7 +79,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="2-洛克绝命" id="QUw4RML9pEo0vWm_XiPt">
+  <diagram name="2-鲁克绝命" id="QUw4RML9pEo0vWm_XiPt">
     <mxGraphModel dx="1488" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -87,7 +87,7 @@
         <mxCell id="101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0B1220;strokeColor=none;" value="" vertex="1">
           <mxGeometry height="780" width="1100" as="geometry" />
         </mxCell>
-        <mxCell id="102" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 洛克绝命（三化身）" vertex="1">
+        <mxCell id="102" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#F8FAFC;fontSize=26;fontStyle=1;fontFamily=Helvetica;" value="堕落的守护者 — 10H 鲁克绝命（三化身）" vertex="1">
           <mxGeometry height="36" width="720" x="40" y="20" as="geometry" />
         </mxCell>
         <mxCell id="103" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="刷新点固定 · 英雄三化身共享血 · 靠近哀伤集合 · 阴郁拉近打断 · 悲苦外拉放圈" vertex="1">
@@ -117,7 +117,7 @@
         <mxCell id="111" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#CBD5E1;fontSize=16;" value="刷新点C 悲苦" vertex="1">
           <mxGeometry height="30" width="70" x="680" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="113" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T 接困苦" vertex="1">
+        <mxCell id="113" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="鲁克T 接困苦" vertex="1">
           <mxGeometry height="60" width="60" x="670" y="250" as="geometry" />
         </mxCell>
         <mxCell id="114" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T 除了困苦全拉" vertex="1">
@@ -153,7 +153,7 @@
         <mxCell id="124" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="孙 (仍在场)" vertex="1">
           <mxGeometry height="60" width="60" x="280" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【洛克绝命要点】 1. 三刷新点固定，开战前打世界标记 2. 哀伤原地不动 → 大团去哀伤旁 3. 阴郁拉到哀伤：打断腐蚀震击+cleave 4. 悲苦外拉：永久黑圈靠边放 5. 洛克原坦接阴郁；另一坦抗何+悲苦 6. 英雄共享血，技能全程在 7. 炼狱约 360 万/8 码：略散；灼烧出列 8. 场上何/孙技能仍要处理" vertex="1">
+        <mxCell id="125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【鲁克绝命要点】 1. 三刷新点固定，开战前打世界标记 2. 哀伤原地不动 → 大团去哀伤旁 3. 阴郁拉到哀伤：打断腐蚀震击+cleave 4. 悲苦外拉：永久黑圈靠边放 5. 鲁克原坦接阴郁；另一坦抗何+悲苦 6. 英雄共享血，技能全程在 7. 炼狱约 360 万/8 码：略散；灼烧出列 8. 场上何/孙技能仍要处理" vertex="1">
           <mxGeometry height="280" width="220" x="40" y="150" as="geometry" />
         </mxCell>
         <mxCell id="126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【图例】 紫 = 化身 红 = 坦克 蓝/橙/绿 = 职责 虚线绿框 = 炼狱集合" vertex="1">
@@ -200,7 +200,7 @@
         <mxCell id="205" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
           <mxGeometry height="520" width="520" x="280" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="206" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="洛克 (可在)" vertex="1">
+        <mxCell id="206" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="鲁克 (可在)" vertex="1">
           <mxGeometry height="64" width="64" x="420" y="300" as="geometry" />
         </mxCell>
         <mxCell id="207" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="孙 (可在)" vertex="1">
@@ -224,7 +224,7 @@
         <mxCell id="213" parent="1" style="text;html=1;fontColor=#F97316;fontSize=19;fontStyle=1;" value="传递链 →" vertex="1">
           <mxGeometry height="24" width="100" x="380" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="214" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T" vertex="1">
+        <mxCell id="214" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="鲁克T" vertex="1">
           <mxGeometry height="50" width="50" x="360" y="320" as="geometry" />
         </mxCell>
         <mxCell id="215" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T 勿接印" vertex="1">
@@ -233,7 +233,7 @@
         <mxCell id="216" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14532D;fillOpacity=25;strokeColor=#22C55E;strokeWidth=2;dashed=1;fontColor=#86EFAC;fontSize=17;" value="近战/远程 打化身" vertex="1">
           <mxGeometry height="36" width="120" x="440" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="217" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;【何绝命要点】&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 击杀苦痛化身结束绝命（约 5000 万）&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2. 化身平砍很低，主要麻烦是印记&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3. 印记者定身+暗影 DoT+叠易伤&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4. 预排 3–4 人传递链，约 5–7 层传&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;5. 法师冰箱可先硬吃约 10 秒 6. 默认勿传坦克（90% 减甲） 7. 通常 3–4 次传递可杀掉 8. 可与洛克/孙叠一起打，听指挥 9. 首杀不建议何+孙同绝命&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="217" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;【何绝命要点】&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1. 击杀苦痛化身结束绝命（约 5000 万）&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2. 化身平砍很低，主要麻烦是印记&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;3. 印记者定身+暗影 DoT+叠易伤&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;4. 预排 3–4 人传递链，约 5–7 层传&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;5. 法师冰箱可先硬吃约 10 秒 6. 默认勿传坦克（90% 减甲） 7. 通常 3–4 次传递可杀掉 8. 可与鲁克/孙叠一起打，听指挥 9. 首杀不建议何+孙同绝命&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="280" width="220" x="40" y="150" as="geometry" />
         </mxCell>
         <mxCell id="218" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【传递示例】 法师(冰箱) → 指定DPS → 指定DPS → … 约 5–7 层开减伤再传 禁止无脑来回丢" vertex="1">
@@ -259,7 +259,7 @@
         <mxCell id="303" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#94A3B8;fontSize=17;" value="中央减伤罩约 −35% · DPS/治疗进罩 · 远程罩外大体 · 近战罩内小怪" vertex="1">
           <mxGeometry height="28" width="820" x="40" y="56" as="geometry" />
         </mxCell>
-        <mxCell id="304" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 何留池必须坦在罩外；绝命前勿把毒池铺在罩位！洛克踢时短出再进" vertex="1">
+        <mxCell id="304" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FBBF24;fontSize=17;fontStyle=1;" value="⚠ 何留池必须坦在罩外；绝命前勿把毒池铺在罩位！鲁克踢时短出再进" vertex="1">
           <mxGeometry height="28" width="820" x="40" y="88" as="geometry" />
         </mxCell>
         <mxCell id="305" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#111827;strokeColor=#64748B;strokeWidth=3;" value="" vertex="1">
@@ -313,13 +313,13 @@
         <mxCell id="321" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="何T" vertex="1">
           <mxGeometry height="50" width="50" x="610" y="498" as="geometry" />
         </mxCell>
-        <mxCell id="322" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="洛克 尽量罩外" vertex="1">
+        <mxCell id="322" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#334155;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#F8FAFC;fontStyle=1;fontSize=17;" value="鲁克 尽量罩外" vertex="1">
           <mxGeometry height="60" width="60" x="410" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="323" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="洛克T" vertex="1">
+        <mxCell id="323" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#FECACA;strokeWidth=2;fontColor=#FFFFFF;fontStyle=1;fontSize=17;" value="鲁克T" vertex="1">
           <mxGeometry height="50" width="50" x="390" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="324" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="洛克腐化踢 → 短出罩再进 勿封死罩" vertex="1">
+        <mxCell id="324" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="鲁克腐化踢 → 短出罩再进 勿封死罩" vertex="1">
           <mxGeometry height="80" width="220" x="820" y="200" as="geometry" />
         </mxCell>
         <mxCell id="325" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="罩内小怪伤 反馈到大化身" vertex="1">
@@ -328,7 +328,7 @@
         <mxCell id="326" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#422006;strokeColor=#F59E0B;fontColor=#FDE68A;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="毒池禁铺罩位！" vertex="1">
           <mxGeometry height="50" width="220" x="820" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="327" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【孙绝命要点】 1. DPS/治疗进中央罩（约 −35%） 2. 站罩边缘：洛克踢时短暂出罩 3. 罩外两只大体（不共享）远程打 4. 罩内小怪近战清（伤反馈大体） 5. 何留池期：坦在罩外 6. 绝命前清掉罩位附近毒池 7. 洛克尽量拉在罩外 8. 罩外硬站会被暗影跳打崩" vertex="1">
+        <mxCell id="327" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;strokeWidth=1;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=12;fontSize=17;" value="【孙绝命要点】 1. DPS/治疗进中央罩（约 −35%） 2. 站罩边缘：鲁克踢时短暂出罩 3. 罩外两只大体（不共享）远程打 4. 罩内小怪近战清（伤反馈大体） 5. 何留池期：坦在罩外 6. 绝命前清掉罩位附近毒池 7. 鲁克尽量拉在罩外 8. 罩外硬站会被暗影跳打崩" vertex="1">
           <mxGeometry height="260" width="220" x="40" y="150" as="geometry" />
         </mxCell>
         <mxCell id="328" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E293B;strokeColor=#475569;fontColor=#E2E8F0;align=left;verticalAlign=top;spacing=10;fontSize=17;" value="【图例】 紫虚线圆 = 冥想罩 紫大圆 = 大化身 紫小圆 = 罩内小怪 红 = 坦（罩外）" vertex="1">

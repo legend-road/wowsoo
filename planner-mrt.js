@@ -79,11 +79,11 @@
           const sp = specs.find((s) => s.id === mem.specId);
           return sp && (sp.tags || []).includes(tag);
         });
-        return m ? m.tag : null;
+        return m ? m.display || m.tag : null;
       }
       for (const id of ids) {
         const m = members.find((mem) => mem.specId === id);
-        if (m) return m.tag;
+        if (m) return m.display || m.tag;
       }
       return null;
     }
@@ -115,6 +115,7 @@
         aura: "虔诚",
         rally: "集结",
         demo: "挫志",
+        smoke: "烟雾弹",
         link: "链接",
         tide: "潮汐",
         kings: "列王",
@@ -188,12 +189,16 @@
     return `# ${line.t || "?"} ${body}`;
   }
 
-  function assignBlock(boss) {
-    const lines = (boss.assign || []).map((a) => `- ${a}`);
-    return lines.join("\n");
-  }
-
   function cdBlock(boss) {
+    const P = global.SOO_PLANNER;
+    if (boss.cdRounds && boss.cdRounds.length && P && P.formatRound) {
+      return boss.cdRounds
+        .map((r) => {
+          const icons = (r.items || []).map((i) => spellIcon(i.tag)).join("");
+          return `${r.slot} ${P.formatRound(r)}${icons}`;
+        })
+        .join("\n");
+    }
     const dr = (boss.cdsOrder || []).map((c) => `${c.slot} ${c.who} ${c.skills}${spellIcon(c.tag)}`);
     const heal = (boss.healOrder || []).map(
       (c) => `${c.slot} ${c.who} ${c.skills}${spellIcon(c.tag)}`
@@ -209,8 +214,8 @@
     members.forEach((m) => {
       const sp = specs.find((s) => s.id === m.specId);
       const tags = (sp && sp.tags) || [];
-      if (tags.includes("interrupt")) interrupt.push(m.tag);
-      if (tags.includes("trap")) trap.push(m.tag);
+      if (tags.includes("interrupt")) interrupt.push(m.display || m.tag);
+      if (tags.includes("trap")) trap.push(m.display || m.tag);
     });
     bossPlan._interrupt = interrupt;
     bossPlan._trap = trap;
@@ -231,29 +236,31 @@
 
     const flex =
       boss.flexNotes && boss.flexNotes.length
-        ? `弹性：${boss.flexNotes.join("；")} → ${boss.note}\n`
-        : `编制：${boss.note}\n`;
+        ? `弹性：${boss.flexNotes.join("；")} → ${boss.note}`
+        : `编制：${boss.note}`;
 
-    const modeShort = (getModeMeta(getMode()).short || "10H");
+    const modeShort = getModeMeta(getMode()).short || "10H";
     const header = [
       `${boss.idx}. ${boss.name} · ${modeShort}`,
-      flex.trim(),
+      flex,
       `嗜血：${boss.lust}`,
-      `开打前：${boss.pull}`,
-      "",
-      "主坦 " + (roles.mt || "?") + " · 副坦 " + (roles.ot || "?") +
+      boss.stance ? `起手站位：${boss.stance}` : "",
+      "主坦 " +
+        (roles.mt || "?") +
+        " · 副坦 " +
+        (roles.ot || "?") +
         (roles.t3 ? " · 三坦 " + roles.t3 : "") +
-        " · 奶 " + [roles.h1, roles.h2, roles.h3].filter(Boolean).join("/"),
-    ].join("\n");
+        " · 奶 " +
+        [roles.h1, roles.h2, roles.h3].filter(Boolean).join("/"),
+    ]
+      .filter(Boolean)
+      .join("\n");
 
     const parts = [
       header,
       "",
-      "=== 减抬点名 ===",
+      `=== ${boss.cdRoundLabel || "减伤3轮循环"} ===`,
       cdBlock(boss),
-      "",
-      "=== 人员分工 ===",
-      assignBlock(boss),
       "",
       "=== 开怪计时提醒（粘贴进 MRT Note；需 Reminder/Kaze Timers）===",
       ...(tl.note ? [`# ${tl.note}`] : []),
@@ -261,17 +268,13 @@
     ];
 
     if (triggered.length) {
-      parts.push(
-        "",
-        "=== 施法触发提醒（SCC/SCS，更稳；需 BigWigs/DBM + Kaze）===",
-        ...triggered
-      );
+      parts.push("", "=== 施法触发提醒（SCC/SCS，更稳；需 BigWigs/DBM + Kaze）===", ...triggered);
     }
 
     parts.push(
       "",
       "# 用法：团长 /rt note 粘贴本页 → 同步；个人装 Kaze MRT Timers 或 MRT Reminder",
-      "# 分配器可填角色名后点「代号→角色名」，Kaze 会高亮本人任务；也可手动改"
+      "# 已填角色名则自动写入，Kaze 会高亮本人任务"
     );
 
     return parts.join("\n");
@@ -279,15 +282,17 @@
 
   function generateAll(fullPlan) {
     if (!fullPlan || !fullPlan.bosses) return [];
-    return fullPlan.bosses.map((boss) => {
-      const tl = TLS().find((t) => t.id === boss.id) || { lines: [], note: "无细轴，仅分工" };
-      return {
-        id: boss.id,
-        idx: boss.idx,
-        name: boss.name,
-        text: buildNote(boss, fullPlan, tl),
-      };
-    });
+    return fullPlan.bosses
+      .filter((boss) => boss.mrt)
+      .map((boss) => {
+        const tl = TLS().find((t) => t.id === boss.id) || { lines: [], note: "无细轴，仅减伤轮次" };
+        return {
+          id: boss.id,
+          idx: boss.idx,
+          name: boss.name,
+          text: buildNote(boss, fullPlan, tl),
+        };
+      });
   }
 
   function generateOne(fullPlan, bossId) {

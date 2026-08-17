@@ -44,7 +44,7 @@
       protectors: base(
         svgWrap(`
           <circle cx="110" cy="80" r="28" fill="#2a1810" stroke="#e85d2a" stroke-width="2"/>
-          <text x="110" y="85" text-anchor="middle" fill="#f3e6d4" font-size="11">洛克</text>
+          <text x="110" y="85" text-anchor="middle" fill="#f3e6d4" font-size="11">鲁克</text>
           <circle cx="310" cy="80" r="28" fill="#2a1810" stroke="#d96b4a" stroke-width="2"/>
           <text x="310" y="85" text-anchor="middle" fill="#f3e6d4" font-size="11">何</text>
           <circle cx="210" cy="180" r="28" fill="#2a1810" stroke="#4a90d9" stroke-width="2"/>

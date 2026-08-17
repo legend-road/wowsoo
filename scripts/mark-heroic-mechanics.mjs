@@ -17,10 +17,10 @@ const MARKS = {
     煞能之池: true,
   },
   protectors: {
-    "洛克：腐化酒桶": "diff",
+    "鲁克：腐化酒桶": "diff",
     "何：锁喉": "diff",
     "孙：灾祸": "diff",
-    "洛克绝命": "diff",
+    "鲁克绝命": "diff",
     "孙绝命：黑暗冥想": "diff",
   },
   pride: {

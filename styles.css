@@ -2143,6 +2143,34 @@ a.h10-now-toc {
   background: linear-gradient(135deg, #6fd08a, #3fa866);
   vertical-align: middle;
 }
+.rb-cd-slot--round {
+  border-color: rgba(232, 165, 75, 0.4);
+  background: linear-gradient(135deg, rgba(232, 165, 75, 0.12), rgba(0, 0, 0, 0.2));
+}
+.planner-round-grid {
+  margin-bottom: 0.35rem;
+}
+.planner-mrt-badge {
+  display: inline-block;
+  margin-left: 0.3rem;
+  padding: 0.08rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #1a1208;
+  background: linear-gradient(135deg, #e8a54b, #c9892a);
+  vertical-align: middle;
+}
+.planner-share {
+  margin-top: 1rem;
+  padding: 0.85rem 0.9rem;
+  border: 1px solid rgba(95, 191, 122, 0.35);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.28);
+  min-width: 0;
+}
+.planner-share-text,
 .planner-mrt-text {
   width: 100%;
   max-width: 100%;
@@ -2161,6 +2189,11 @@ a.h10-now-toc {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+.planner-share-text {
+  min-height: 12rem;
+  color: #d5e8d0;
+}
+.planner-share-text:focus,
 .planner-mrt-text:focus {
   outline: none;
   border-color: rgba(232, 165, 75, 0.65);
